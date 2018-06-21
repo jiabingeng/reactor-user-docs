@@ -1,8 +1,8 @@
 # Overview
 
-Launch is the next generation of tag management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+Launch is the next generation of  website tag management and mobile sdk management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For mobile, Launch provides capabilities to dynamically configure, publish and delpoy changes to their SDK.
 
-Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to Launch customers in an app-store experience so they can quickly install, configure, and deploy their tags.
+Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to both web and mobile Launch customers in an app-store experience so they can quickly install, configure, and deploy their integrations.
 
 Launch is offered to Adobe Experience Cloud customers as an included, value-add feature. Launch is an entirely new product with a new code base, designed to replace the previous Dynamic Tag Management \(DTM\) service. However, DTM will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
 
