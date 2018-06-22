@@ -37,10 +37,11 @@ For more about creating properties, see [Create a property](../administration/co
 ## 4. Install extensions
 
 Extensions are one of the core features of Launch. An extension is an integration built by Adobe or an Adobe partner that adds new and endless options for the tags that you can deploy to your sites. If you think of Launch as an operating system, extensions are the apps that you install so Launch can do the things you need it to do.
+<!-- needs edits here for mobile-->
 
 All new properties come with the [Core extension](../extension-reference/core-extension.md) installed. This extension is built by the Launch team to provide a robust default set of data element types for your data layer and event types for your rules. Most actions you will want to perform \(get an ECID, send Adobe Analytics beacons, load the Target global mbox, etc\) will come from extensions that you install from the catalog.
 
-What makes Launch truly unique among tag management systems is that these extensions can be built by anyone. Do you need to drop a Facebook remarketing pixel on your site? Check out the extension that Facebook built. Do you want the same for Twitter or Linked In? Use those extensions. Do you need to run a survey? Look at Question Pro or Foresee. Do you need to manage privacy and consent from your end users to help out with GDPR? Take a good look at Evidon and Trust Arc. Would you like to see really granular insight into the behavior of individual users on your site? Maybe take a look at Clicktale. For more information, see [Add a new extension](../managing-resources/extensions.md#add-a-new-extension).
+What makes Launch truly unique among other tag and mobile SDK management systems is that these extensions can be built by anyone. Do you need to drop a Facebook remarketing pixel on your site? Check out the extension that Facebook built. Do you want the same for Twitter or LinkedIn? Use those extensions. Do you need to run a survey? Look at Question Pro or Foresee. Do you need to manage privacy and consent from your end users to help out with GDPR? Take a good look at Evidon and Trust Arc. Would you like to see really granular insight into the behavior of individual users on your site? Maybe take a look at Clicktale. For mobile attribution, check out Branch. For more information, see [Add a new extension](../managing-resources/extensions.md#add-a-new-extension).
 
 ## 5. Create data elements and rules
 
@@ -54,15 +55,16 @@ What makes Launch truly unique among tag management systems is that these extens
 
 Once defined in a data element, you can use the element anywhere throughout Launch for any extension. \(See [Data Elements](../managing-resources/data-elements.md).\)
 
-**Rules** are at the logical core of your implementation and control the what, when, where, and how of all the tags on your site. Define an event, set conditions and exceptions, then define the actions and order. Finally, publish your changes to see the results. For more information, see [Rules](../managing-resources/rules.md).
+**Rules** are at the logical core of your implementation and control the what, when, where, and how. Define an event, set conditions and exceptions, then define the actions and order. Finally, publish your changes to see the results. For more information, see [Rules](../managing-resources/rules.md).
 
 ## 6. Test in your Dev environment
 
 ### Libraries and builds
 
-Nothing in Launch is published automatically. Each set of changes you make is encapsulated into a [library](../publishing/libraries.md). Each library you create automatically inherits anything upstream \(published, approved, or submitted\) as a baseline, so all you need to do is define the changes you'd like to make. This library serves as the blueprint for a [build](../publishing/builds.md). A build is the actual set of JavaScript files that are deployed and used.
+Nothing in Launch is published automatically. Each set of changes you make is encapsulated into a [library](../publishing/libraries.md). Each library you create automatically inherits anything upstream \(published, approved, or submitted\) as a baseline, so all you need to do is define the changes you'd like to make. This library serves as the blueprint for a [build](../publishing/builds.md). A build for a web property is the actual set of JavaScript files that are deployed and used on your site. A build for a mobile property is the JSON file used to configure your SDK and a manifest file that can be used with a dependency manager such as Maven, Carthage or CocoaPods to bundle in extensions.
 
-To make sense of that process, there are a couple relationships between Launch, your web page, and your hosting location that you need to understand.
+<!-- Remove? -->
+<!-- To make sense of that process, there are a couple relationships between Launch, your web page, and your hosting location that you need to understand.--> 
 
 ![](../.gitbook/assets/loop.png)
 
