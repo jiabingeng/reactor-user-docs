@@ -1,6 +1,6 @@
 # Getting Started
 
-Launch is the next-generation of Adobe's tag management technology, built on the Adobe Cloud Platform. It is built from the ground up to support an open and sustainable ecosystem where anyone can build their own integrations that Adobe customers can deploy to their sites. It is an API first application so anything you can do through the UI you can also do programmatically through an API.
+Launch is the next-generation of Adobe's website tag and mobile SDK management technology, built on the Adobe Cloud Platform. It is built from the ground up to support an open and sustainable ecosystem where anyone can build their own integrations that Adobe customers can deploy to their websites and mobile applciations. It is an API first application so anything you can do through the UI you can also do programmatically through an API.
 
 The basic Launch workflow:
 
@@ -16,19 +16,21 @@ For an introductory video, see [Introduction to Launch, by Adobe](videos.md).
 
 ## 1. Set up groups and users
 
-Launch is fully integrated with your Adobe ID. User permissions are managed through the Admin Console with other Adobe products and solutions from the Creative Cloud, Document Cloud, and Experience Cloud.
+Launch is fully integrated with your Adobe ID. User permissions are managed through the Admin Console along with other Adobe products and solutions from the Creative Cloud, Document Cloud, and Experience Cloud.
 
 Unlike DTM, Launch has rights-based user management. \(DTM was role-based.\) This means that instead of getting a role which implies a certain set of rights, individual rights must be granted explicitly. These rights are assigned to groups, then users are added to the appropriate groups in order to gain access. Even if your company has access to Launch, individual users cannot do anything until an Org Administrator explicitly grants them some rights.
+
+` Do we need to add in a comparison to mobile services here? `
 
 For detailed instructions on how to create groups and add users for Launch, see [Users](../administration/users.md).
 
 ## 2. Log in
 
-Once Launch rights have been added to your Adobe ID, you need to log in to Launch. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud \(https://marketing.adobe.com\)](https://marketing.adobe.com), navigating to the Activation page, and clicking on Launch.
+Once Launch rights have been added to your Adobe ID, you need to log in to Launch. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud \(https://experiencecloud.adobe.com\)](https://experiencecloud.adobe.com), navigating to the Activation page, and clicking on Launch.
 
 ## 3. Create a property
 
-Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site. Many people create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags.
+Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries to deploy tags to your site and configuration parameters to your mobile apps. Many people create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags. In the case of mobile applications, a new property will be created for each mobile application. 
 
 For more about creating properties, see [Create a property](../administration/companies-and-properties.md#create-a-property).
 
