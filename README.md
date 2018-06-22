@@ -20,7 +20,7 @@ Launch is offered to Adobe Experience Cloud customers as an included, value-add 
 
 An extension is a package of code \(JavaScript, HTML, and CSS\) that extends the Launch UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks. 
 
-Mobile extensions are comprised of both a Launch UI configuration panel and native SDK components that work together with the core Adobe Mobile SDK. 
+Mobile extensions are comprised of both Launch UI configuration options and native SDK components that work together with the core Adobe Mobile SDK to deliver functionality to mobile apps.
 
 ### Extension Catalog
 
@@ -41,13 +41,13 @@ When the criteria outlined in your rules are met and conditions are satisfied, t
 
 ### Data Elements
 
-Collect, organize, and deliver data across web-based marketing and advertising technology.
+Collect, organize, and deliver data across marketing and advertising technologies.
 
 ### Enterprise Publishing
 
-The publishing process enables teams to publish code to pages. Different people can create an implementation, approve it, and publish it to your pages.
+The publishing process enables teams to publish code to pages or SDK configuration options to mobile apps. Different users can create an implementation, approve it, and publish.
 
-* Changes to your code are encapsulated within libraries you define ​
+* Changes to your code or configuration are encapsulated within libraries you define ​
 * You specify where and when you want your code deployed ​
 * Multiple libraries can be built in parallel by different teams ​
 * Unlimited development environments ​
@@ -62,9 +62,12 @@ Automate implementations of individual technologies, or a group of technologies.
 * Integrate the Launch APIs with your own internal systems ​
 * You can build your own user interface, if desired ​
 
+
 ### Light, Modular Container tag
 
+```
 The Launch container tag is 60% lighter than DTM and 40% lighter than Google Tag Manager. The content of your container is minified, including your custom code. Everything is modular. If you don't need an item, it is not included in your library. The result is an implementation that is fast and compact. See [Minification](publishing/builds.md).
+```
 
 ## Other highlights
 
