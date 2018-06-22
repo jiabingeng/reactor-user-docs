@@ -84,10 +84,16 @@ Launch requires the following:
 
 * You must be an Adobe Experience Cloud customer.
 * You must deploy the Launch or DTM embed code on your web pages.
+* You must integrate Version 5 of the Adobe Experience Cloud Mobile SDK into your application.
 
+
+<!-- Do we still need the FAQ below now that it is over a year old? -->
+```
 ## Adobe Launch FAQ
 
 Frequently asked questions about the new tag management capabilities, announced in March 2017.
+```
+
 
 #### What is Launch?
 
@@ -177,6 +183,8 @@ Browser support in the Launch application interface:
 * Internet Explorer \(11 and above\)
 
 Legacy DTM supported older versions of Internet Explorer, but over the last few years, the percentage of overall web users with older, outdated browsers has dropped to a small segment for our clients. Most Adobe clients now leverage more modern web platform features in current browsers and create better user experiences, including single page applications and interactive Ajax-heavy web sites and pages. As most clients move to more modern approaches with their sites, they demand a solution like Launch that enables those approaches.
+
+
 
 #### Does the new Launch work on native mobile apps?
 
