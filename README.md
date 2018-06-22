@@ -1,6 +1,6 @@
 # Overview
 
-Launch is the next generation of  website tag management and mobile sdk management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For mobile, Launch provides capabilities to dynamically configure, publish and delpoy changes to their SDK.
+Launch is the next generation of  website tag and mobile SDK management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For mobile, Launch provides capabilities to dynamically configure, publish and delpoy changes to their SDK.
 
 Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to both web and mobile Launch customers in an app-store like experience so they can quickly install, configure, and deploy their integrations.
 
