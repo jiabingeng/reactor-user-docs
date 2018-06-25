@@ -15,7 +15,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 **Configure -** To configure the VA Launch Extension, open the Extensions tab, hover over the extension, and then click Configure:
 
-![](../.gitbook/assets/ext-va-config.jpg)
+![](../../.gitbook/assets/ext-va-config.jpg)
 
 #### Configuation Options
 
@@ -116,9 +116,9 @@ The Open Video action provides various configurations for creating and customizi
 
 **Action Configuration / Player Settings:** Note the CSS Selector setting which specifics the `<div>` in the web page where the player is added. Note also that the "Enable Adobe Analytics" checkbox is checked in the Analytics Settings pane.
 
-![](../.gitbook/assets/ext-va-sp-action.png)
+![](../../.gitbook/assets/ext-va-sp-action.png)
 
-![](../.gitbook/assets/ext-va-sp-action1.png)
+![](../../.gitbook/assets/ext-va-sp-action1.png)
 
 * [https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx) - UI Code to configure the Action is defined here.
 * [https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/lib/actions/openVideo.js](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/lib/actions/openVideo.js) - This file exports a function that gets executed when the Action is triggered as part of the launch rule.
@@ -152,7 +152,7 @@ The Open Video action provides various configurations for creating and customizi
 
 Once the Sample Player Extension is installed, you'll need to create at least one rule to properly deploy it. The Image below shows a sample rule that opens the specified video when the core extension fires the `DOMLoaded` event.
 
-![](../.gitbook/assets/ext-va-sp-rule.png)
+![](../../.gitbook/assets/ext-va-sp-rule.png)
 
 Once you have saved this rule, you'll need to add it to a Library and build/deploy so that you can test the behavior.
 
