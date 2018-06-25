@@ -14,8 +14,6 @@ To configure the extension, open the Extensions tab, hover over the extension, a
 
 ### at.js Settings
 
-
-
 All of your at.js settings, with the exception of the Timeout. are automatically retrieved from your at.js configuration in the Target user interface. The extension only retrieves settings from the Target user interface when it is first added, so all settings should be managed in the Launch interface if additional updates are needed.
 
 The following configuration options are available:
@@ -104,7 +102,7 @@ For more information, refer to the [Target online help documentation](https://ma
 
 ## Adobe Target basic deployment
 
-Once the Target Extension is installed, you'll need to create at least one rule to properly deploy it.  You first need to load the Target library \(at.js\), specify the parameters you want to use with the global mbox, and fire the global mbox.
+Once the Target Extension is installed, you'll need to create at least one rule to properly deploy it. You first need to load the Target library \(at.js\), specify the parameters you want to use with the global mbox, and fire the global mbox.
 
 A Target rule with this basic implementation looks like this:
 
@@ -114,11 +112,11 @@ Once you have saved this rule, you'll need to add it to a Library and build/depl
 
 ## Adobe Target extension with an asynchronous deployment
 
-Launch can be deployed asynchronously. If you are loading the Launch library asynchronously with Target inside it, then Target will also be loaded asynchronously. This is a fully supported scenario, but there is one additional consideration that must be handled. 
+Launch can be deployed asynchronously. If you are loading the Launch library asynchronously with Target inside it, then Target will also be loaded asynchronously. This is a fully supported scenario, but there is one additional consideration that must be handled.
 
-In asynchronous deployments, it is possible for the page to finish rendering the default content before the Target library is fully loaded and has performed the content swap. This can lead to what is known as "flicker" where the default content shows up briefly before being replaced by the personalized content specified by Target. If you want to avoid this flicker, it is suggested that you use a pre-hiding snippet and load the Launch bundle asynchronously to avoid any content flicker. 
+In asynchronous deployments, it is possible for the page to finish rendering the default content before the Target library is fully loaded and has performed the content swap. This can lead to what is known as "flicker" where the default content shows up briefly before being replaced by the personalized content specified by Target. If you want to avoid this flicker, it is suggested that you use a pre-hiding snippet and load the Launch bundle asynchronously to avoid any content flicker.
 
-Here are some things to keep in mind when using the pre-hiding snippet: 
+Here are some things to keep in mind when using the pre-hiding snippet:
 
 * This code can't be managed by Launch, so it must be added to the page directly.
 * The snippet must be added before loading the Launch header embed code.

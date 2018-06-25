@@ -14,7 +14,7 @@ Every company that signs a contract with Adobe has at least one organization adm
 
 The steps below guide you through the process of assigning permissions. Steps 1-3 below can be bypassed by navigating directly to [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/products). If you belong to more than one Organization, be sure to select the correct org from the top nav on the right.
 
-### 1. Sign in to [http://marketing.adobe.com](http://marketing.adobe.com) 
+### 1. Sign in to [http://marketing.adobe.com](http://marketing.adobe.com)
 
 Sign in to [http://marketing.adobe.com](http://marketing.adobe.com) with your Adobe ID, then choose the organization to use within Launch from the Navigation menu.
 

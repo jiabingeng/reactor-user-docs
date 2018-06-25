@@ -27,6 +27,7 @@
   * [Upgrade Preparation Guide](upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
   * [Link DTM Embed Code](upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
 * [Extension Reference](extension-reference/README.md)
+  * [Web](extension-reference/web.md)
   * [Core Extension](extension-reference/core-extension.md)
   * [Experience Cloud ID Service Extension](extension-reference/experience-cloud-id-service-extension.md)
   * [Adobe Analytics Extension](extension-reference/adobe-analytics-extension.md)
@@ -35,4 +36,5 @@
   * [Adobe ContextHub Extension](extension-reference/adobe-contexthub-extension.md)
   * [Adobe Audience Manager Extension](extension-reference/adobe-audience-manager-extension.md)
   * [Adobe Privacy Extension](extension-reference/adobe-privacy-extension.md)
+* [Mobile](mobile.md)
 

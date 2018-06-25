@@ -32,9 +32,9 @@ Although the goal is to display content to visitors faster, and asynchronously l
 
 ### Timing
 
-As described above, in synchronous deployments, page rendering pauses while the Launch library is loaded and executed.  This means that events that happen after the library is loaded \(Page Bottom, DOM Ready, Window Loaded, etc\) always reliably happen after the `_satellite` object is available.
+As described above, in synchronous deployments, page rendering pauses while the Launch library is loaded and executed. This means that events that happen after the library is loaded \(Page Bottom, DOM Ready, Window Loaded, etc\) always reliably happen after the `_satellite` object is available.
 
-In asynchronous deployments, the page rendering does not pause for the library to be loaded.  This means that the sequence of events is less reliable and can even vary from one browser to another and even one page load to another depending on a number of factors \(cached libraries, bandwidth, etc\).
+In asynchronous deployments, the page rendering does not pause for the library to be loaded. This means that the sequence of events is less reliable and can even vary from one browser to another and even one page load to another depending on a number of factors \(cached libraries, bandwidth, etc\).
 
 If you see things occuring out of order - or occuring in different order inconsistently - it is likely that you have some timing issues to work through.
 

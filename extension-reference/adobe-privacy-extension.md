@@ -1,6 +1,6 @@
 # Adobe Privacy Extension
 
- The Adobe Privacy extension provides functionality for collecting and removing user IDs assigned to end users by Adobe solutions.
+The Adobe Privacy extension provides functionality for collecting and removing user IDs assigned to end users by Adobe solutions.
 
 ## Configure Solutions During Installation
 
@@ -11,11 +11,10 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 * Target
 * Visitor Service
 * AdCloud
+* Select one or more solutions, then click Update.
+* When you have selected and configured your solutions, click Save. The Adobe Privacy Extension is added to your installed extensions list.
 
-1. Select one or more solutions, then click Update.
-2. When you have selected and configured your solutions, click Save. The Adobe Privacy Extension is added to your installed extensions list.
-
- The options for each solution are described below.
+  The options for each solution are described below.
 
 ### Analytics
 
@@ -23,7 +22,7 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 
 By default, you must provide your report suite by entering a string or selecting a data element.
 
-To configure other items, click Choose an Item, select the item you want to configure, then click Add and enter the requested parameter or a data element. 
+To configure other items, click Choose an Item, select the item you want to configure, then click Add and enter the requested parameter or a data element.
 
 ### Audience Manager
 
@@ -61,13 +60,13 @@ The following actions are available when you configure a rule using the Adobe Pr
 
 When the event and conditions are met, retrieve identity information that is stored for the visitor.
 
-Enter the name of a JavaScript function you want to pass the data to.  This function or method handles the retrieved Identities.  Whether you store them, display them, or send them to the Adobe GDPR API, is within your control.
+Enter the name of a JavaScript function you want to pass the data to. This function or method handles the retrieved Identities. Whether you store them, display them, or send them to the Adobe GDPR API, is within your control.
 
 ### Remove Identities
 
 When the event and conditions are met, remove identity information that is stored for the visitor.
 
-Enter the name of a JavaScript function you want to pass the data to.  This function or method handles the retrieved Identities.  Whether you store them, display them, or send them to the Adobe GDPR API, is within your control.
+Enter the name of a JavaScript function you want to pass the data to. This function or method handles the retrieved Identities. Whether you store them, display them, or send them to the Adobe GDPR API, is within your control.
 
 ### Retrieve Then Remove Identies
 
