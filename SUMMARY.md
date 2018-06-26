@@ -36,5 +36,6 @@
     * [Adobe ContextHub Extension](extension-reference/web/adobe-contexthub-extension.md)
     * [Adobe Audience Manager Extension](extension-reference/web/adobe-audience-manager-extension.md)
     * [Adobe Privacy Extension](extension-reference/web/adobe-privacy-extension.md)
-    * [Mobile](extension-reference/web/mobile.md)
+  * [Mobile](extension-reference/mobile/README.md)
+    * [Test topic](extension-reference/mobile/test-topic.md)
 
