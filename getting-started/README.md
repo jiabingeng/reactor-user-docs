@@ -22,7 +22,7 @@ Unlike DTM, Launch has rights-based user management. \(DTM was role-based.\) Thi
 
 `Do we need to add in a comparison to mobile services here?`
 
-For detailed instructions on how to create groups and add users for Launch, see [Users](../administration/users.md).
+For detailed instructions on how to create groups and add users for Launch, see [Users](../administration/user-permissions.md).
 
 ## 2. Log in
 
