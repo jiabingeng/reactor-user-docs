@@ -1,5 +1,7 @@
 # Adobe Analytics for Video Extension
 
+## Adobe Analytics for Video Extension
+
 Use this documentation for information on installing, configuring, and implementing the Adobe Analytics for Video extension \(Video Analytics extension\). Included are the options available when using this extension to build a rule, along with examples and links to samples.
 
 The Video Analytics \(VA\) extension adds the core VA JavaScript library \(VA 2.x SDK\). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The VA extension requires two additional extensions:
@@ -10,31 +12,33 @@ The Video Analytics \(VA\) extension adds the core VA JavaScript library \(VA 2.
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
 * Use `MediaHeartbeat` APIs from your web app
-* Include, or build, a player-specific extension that maps specific video player 
+* Include, or build, a player-specific extension that maps specific video player
 
-  events to the Video Analytics APIs on the `MediaHeartbeat` tracker instance. 
+  events to the Video Analytics APIs on the `MediaHeartbeat` tracker instance.
 
   This instance is exposed through the VA extension.
 
-<<<<<<< HEAD:extension-reference/web/adobe-analytics-for-video-extension.md
-![](../../.gitbook/assets/ext-va-config.jpg)
-=======
-## Install and configure the VA extension
->>>>>>> launch/master:extension-reference/adobe-analytics-for-video-extension.md
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:extension-reference/web/adobe-analytics-for-video-extension.md
 
-* **Install -** To install the VA extension, open your extension property, 
+## ![](../../.gitbook/assets/ext-va-config.jpg)
 
-  click _Extensions &gt; Catalog_, hover over the _Adobe Analytics for Video_ 
+### Install and configure the VA extension
+
+> > > > > > > launch/master:extension-reference/adobe-analytics-for-video-extension.md
+
+* **Install -** To install the VA extension, open your extension property,
+
+  click _Extensions &gt; Catalog_, hover over the _Adobe Analytics for Video_
 
   extension, and click _Install_.
 
-* **Configure -** To configure the VA extension, open the _Extensions_ tab, 
+* **Configure -** To configure the VA extension, open the _Extensions_ tab,
 
   hover over the extension, and then click _Configure_:
 
-![VA Extension Configuration](../.gitbook/assets/ext-va-config.jpg)
+![VA Extension Configuration](https://github.com/jiabingeng/mobile-launch/tree/060dc84924418383ad6deff3cce42d67ed353597/extension-reference/.gitbook/assets/ext-va-config.jpg)
 
-#### Configuation options:
+**Configuation options:**
 
 | Option | Description |
 | --- | --- |
@@ -50,9 +54,9 @@ After you have included all three of the extensions mentioned above in your Laun
 
 **Reminder:** The VA extension requires the [Adobe Analytics](https://docs.adobelaunch.com/extension-reference/adobe-analytics-extension) and [Experience Cloud ID](https://docs.adobelaunch.com/extension-reference/experience-cloud-id-service-extension) extensions. You must also add these extensions to your extension property and configure them.
 
-## Using the VA extension
+### Using the VA extension
 
-### Using from a webpage/JS-app
+#### Using from a webpage/JS-app
 
 The VA extension exports the MediaHeartbeat APIs in the global window object by enabling the _"Export APIs to Window Object"_ setting in the Configuration page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
 
@@ -75,7 +79,7 @@ The VA extension exports the MediaHeartbeat APIs in the global window object by 
 
    You can obtain the sample player here: [VA Sample Player](https://github.com/Adobe-Marketing-Cloud/video-heartbeat-v2/tree/master/sdks/js/samples/Launch/VideoHeartbeatSample). The sample player acts as a reference to showcase how to use the VA extension to support Video Analytics directly from a webapp.
 
-### Using from other extensions
+#### Using from other extensions
 
 The VA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. \(For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).\)
 
@@ -144,31 +148,31 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 **Note: Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
-## Leveraging the sample HTML5 player
+### Leveraging the sample HTML5 player
 
 You can obtain the VA extension sample HTML5 player here: [HTML5 Sample Player](https://github.com/adobe/reactor-adobe-va-sample-player). The sample player acts as a reference to create video player extensions and to showcase using the VA extension to support Adobe Analytics for Video.
 
-### Sample player extension action types
+#### Sample player extension action types
 
 This section describes the action types available in the Sample Player extension.
 
-#### Open Video
+**Open Video**
 
 The _Open Video_ action provides various configurations for creating and customizing an HTML5 player, providing a video to play and enabling/disabling Adobe Video Analytics tracking.
 
 **Action Configuration / Player Settings:** Note the CSS Selector setting which specifics the `<div>` in the web page where the player is added. Note also that the _Enable Adobe Analytics_ checkbox is checked in the Analytics Settings pane.
 
-<<<<<<< HEAD:extension-reference/web/adobe-analytics-for-video-extension.md
-![](../../.gitbook/assets/ext-va-sp-action.png)
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:extension-reference/web/adobe-analytics-for-video-extension.md ![](../../.gitbook/assets/ext-va-sp-action.png)
 
-![](../../.gitbook/assets/ext-va-sp-action1.png)
-=======
-![Player Extension Action Configuration](../.gitbook/assets/ext-va-sp-action.png)
+## ![](../../.gitbook/assets/ext-va-sp-action1.png)
 
-![Player Extension Action Configuration](../.gitbook/assets/ext-va-sp-action1.png)
->>>>>>> launch/master:extension-reference/adobe-analytics-for-video-extension.md
+![Player Extension Action Configuration](https://github.com/jiabingeng/mobile-launch/tree/060dc84924418383ad6deff3cce42d67ed353597/extension-reference/.gitbook/assets/ext-va-sp-action.png)
 
-* [\[...\]/openVideo/openVideo.jsx](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx) - 
+![Player Extension Action Configuration](https://github.com/jiabingeng/mobile-launch/tree/060dc84924418383ad6deff3cce42d67ed353597/extension-reference/.gitbook/assets/ext-va-sp-action1.png)
+
+> > > > > > > launch/master:extension-reference/adobe-analytics-for-video-extension.md
+
+* [\[...\]/openVideo/openVideo.jsx](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx) -
 
   UI Code to configure the Action is defined here.
 
@@ -199,15 +203,17 @@ The _Open Video_ action provides various configurations for creating and customi
 
 * [\[...\]/analytics/adobeAnalyticsProvider.js](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/lib/helpers/analytics/adobeAnalyticsProvider.js) - This file implements Video Analytics tracking by using Shared Modules exposed by the VA extension.
 
-### Sample player extension basic deployment
+#### Sample player extension basic deployment
 
-<<<<<<< HEAD:extension-reference/web/adobe-analytics-for-video-extension.md
-![](../../.gitbook/assets/ext-va-sp-rule.png)
-=======
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:extension-reference/web/adobe-analytics-for-video-extension.md
+
+## ![](../../.gitbook/assets/ext-va-sp-rule.png)
+
 Once the Sample Player extension is installed, you'll need to create at least one rule to properly deploy it. The Image below shows a sample rule that opens the specified video when the core extension fires the `DOMLoaded` event.
->>>>>>> launch/master:extension-reference/adobe-analytics-for-video-extension.md
 
-![Player Extension Sample Rule](../.gitbook/assets/ext-va-sp-rule.png)
+> > > > > > > launch/master:extension-reference/adobe-analytics-for-video-extension.md
+
+![Player Extension Sample Rule](https://github.com/jiabingeng/mobile-launch/tree/060dc84924418383ad6deff3cce42d67ed353597/extension-reference/.gitbook/assets/ext-va-sp-rule.png)
 
 After you have saved this rule, you will need to add it to a Library, and then build and deploy so that you can test the behavior.
 
