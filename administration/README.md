@@ -8,7 +8,7 @@ This section contains information that is useful for Launch administrators.
 
 * [**Companies and Properties**](companies-and-properties.md)
 
-  A property is a collection of rules, data elements, configured extensions, environments, and libraries. There is a single embed code per web property and a single SDK configuration published per mobile property.
+  A property is a collection of rules, data elements, configured extensions, environments, and libraries. There is one embed code per web property and a single SDK configuration published per mobile property.
 
 * [**Adapter**](adapters.md)
 
