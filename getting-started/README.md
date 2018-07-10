@@ -20,7 +20,7 @@ Launch is fully integrated with your Adobe ID. User permissions are managed thro
 
 Unlike DTM, Launch has rights-based user management. \(DTM was role-based.\) This means that instead of getting a role which implies a certain set of rights, individual rights must be granted explicitly. These rights are assigned to groups, then users are added to the appropriate groups in order to gain access. Even if your company has access to Launch, individual users cannot do anything until an Org Administrator explicitly grants them some rights.
 
-`Do we need to add in a comparison to mobile services here?`
+<!--`Do we need to add in a comparison to mobile services here?`-->
 
 For detailed instructions on how to create groups and add users for Launch, see [Users](../administration/user-permissions.md).
 
@@ -30,7 +30,7 @@ Once Launch rights have been added to your Adobe ID, you need to log in to Launc
 
 ## 3. Create a property
 
-Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries to deploy tags to your site and configuration parameters to your mobile apps. Many people create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags. In the case of mobile applications, a new property will be created for each mobile application.
+Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries to deploy tags to your site and configuration parameters to your mobile apps. Many people create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags. In the case of mobile applications, a new property can contain multiple applications or a single application depending on the need for different configurations. 
 
 For more about creating properties, see [Create a property](../administration/companies-and-properties.md#create-a-property).
 
