@@ -82,8 +82,8 @@ Launch provides several improvements over similar systems, including:
 Launch requires the following:
 
 * You must be an Adobe Experience Cloud customer.
-* You must deploy the Launch or DTM embed code on your web pages.
-* You must integrate Version 5 of the Adobe Experience Cloud Mobile SDK into your application.
+* For web, you must deploy the Launch or DTM embed code on your web pages.
+* For mobile, you must integrate Version 5 of the Adobe Experience Cloud Mobile SDK into your application.
 
 
 ## Adobe Launch FAQ
