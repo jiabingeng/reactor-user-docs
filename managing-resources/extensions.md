@@ -42,22 +42,21 @@ Click Extensions to see all your installed extensions. You can also use the cata
 
 See [Extensions Reference](../extension-reference/) for details about the Adobe-owned extensions.
 
-## Add a new extension
+## Add an extension
 
-Launch is highly extendible. Extensions add core functionality to Launch.
+Launch is highly extendible, so you can easily add core functionality.
 
 A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
-1. From a property's overview page, open the Extensions tab.
-2. Select an extension.
-
-   ![](../.gitbook/assets/extensions.png)
+1. From a property's overview page, open the **Extensions** tab.
+2. Select an extension.  
+   Remember the following information:
 
    * If the extension exists, select it from the extensions catalog.
    * Mouse over an extension in your list to configure or disable it.
    * Add other extensions from the catalog if they are not currently in your list.
 
-   The Core extension is the starting point for your new extension. The default extension provides:
+   The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following:
 
    * Default event
    * Default conditions and exceptions
@@ -69,9 +68,9 @@ When creating or editing elements, you can save and build to your [active librar
 
 ## Configure an extension
 
-Mouse over an installed extension and click Configure.
+Mouse over an installed extension and click **Configure**.
 
-Note: Some extensions do not require configuration and do not offer configuration options.
+**Tip**: Some extensions do not require configuration and do not offer configuration options.
 
-Each configurable extension has unique options. Refer to [Extensions Reference](../extension-reference/) for information about the options available for each Adobe extension.
+Each configurable extension has unique options. For information about the options available for each Adobe extension, see [Extensions Reference](../extension-reference/).
 
