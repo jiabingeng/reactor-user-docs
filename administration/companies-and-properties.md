@@ -101,45 +101,28 @@ The Properties list shows the following information:
 
 Click a property to see an overview of that property. The overview shows any activity performed on the property. It also lists the metrics and extensions for the property.
 
-## Create a property
+## Create a mobile property
 
-Create a property in Launch.
+**Tip**: Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
 
-Note: Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
+Before beginning, review [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties).
 
-Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
-
-1. Navigate to your company page, then click Add New Property.
-
-   ![](../.gitbook/assets/property-create.jpg)
-
-2. Fill in the fields:
-
-   **Name:** The name of your property.
-
-   **URL:** The base URL of the property
-
-3. \(Optional\) Configure Advanced Settings.
-
-   **Return an empty string for undefined values of Data Elements:** Select this check box if you want undefined values to be empty, rather than to assign default values.
-
-   **Tracking Cookie Name:** Overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
-
-   **Anchor Delay \(Milliseconds\):** Specifies how long Launch waits for tags to fire on clicked links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. \(That is, user won't always wait the full length of the delay.\)
-
-4. Click Save.
+1. Navigate to your company page.
+2. Click **Add New Property**.
+3. Enter a property name. 
+4. For **Platform**, click **Mobile**.
+5. Select a privacy option. 
+6. Click **Save**.
 
    The extension is automatically installed into the new property.
 
 ## Delete a property
 
-Delete a property from Launch.
+**Important:** Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
 
-Note: Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
-
-1. In the Properties list, select the property you want to delete.
+1. In the **Properties** list, select a property.
 
    You can select multiple properties to delete.
 
-2. Click Delete, then confirm the removal of the property.
+2. Click **Delete** and confirm the removal of the property.
 
