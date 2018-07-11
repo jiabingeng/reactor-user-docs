@@ -49,7 +49,7 @@ Launch is highly extendible, so you can easily add core functionality.
 A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
 1. From a property's overview page, open the **Extensions** tab.
-2. Select an extension.  
+2. Select an extension, for example, **Mobile Core**.   
    Remember the following information:
 
    * If the extension exists, select it from the extensions catalog.
@@ -62,7 +62,7 @@ A common use of extensions is to create integrations with other applications. In
    * Default conditions and exceptions
    * Default JavaScript
 
-   These defaults are the basis for the custom rules you'll build to create your extension.
+   These defaults are the basis for the custom rules you'll build to create your extension. You should also install the **Identity**, **Analytics**, and **Profile** extensions.
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 
