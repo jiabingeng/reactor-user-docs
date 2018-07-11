@@ -116,7 +116,7 @@ Before beginning, review [Best practices for planning properties](companies-and-
 
    The extension is automatically installed into the new property.
 
-## Delete a property
+## Delete a mobile property
 
 **Important:** Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
 
