@@ -180,42 +180,40 @@ Some important notes:
 
 * Lack of rights means read-only access.
 
-  If you belong to a product configuration with Auto-include properties and no rights, then you have read-only access to all properties in Launch.
+  If you belong to a product configuration with Auto-include properties and no rights, you have read-only access to all properties in Launch.
 
-* If you don't at least assign the Manage Properties right, you won't be able to add any properties when you log in.
-* A user can belong to multiple groups, but the rights from those groups are not combined into a master permission set. That user still has only the rights explicitly granted by each group.
-
-  For example, if Group 1 gives access to Property A with the Develop right and Group 2 gives access to Property B with the Publish right, Develop and Publish rights are not combined for Property A and Property B. You can only develop on Property A and publish on Property B.
+* If you do not at least assign the **Manage Properties** right, you cannot add any properties when you log in.
+* A user can belong to multiple groups, but the rights from those groups are not combined into a master permission set.  That user still has only the rights explicitly granted by each group. For example, if Group 1 gives access to Property A with the Develop right and Group 2 gives access to Property B with the Publish right, Develop and Publish rights are not combined for Property A and Property B. You can only develop on Property A and publish on Property B.
 
 ### 6. Assign users to groups
 
-To assign users to be part of your group, open the Users tab, then click Add User.
+To assign users to be part of your group, open the **Users** tab and click **Add User**.
 
 ![](../.gitbook/assets/profile-user.png)
 
-Click ... for additional options, such as bulk user operations.
+Click **...** for additional options, such as bulk user operations.
 
-**Note:** Being an Org Admin or a Product Admin does not grant you any rights within the Launch product. You must belong to at least one product profile.
+**Tip:** Being an Org Admin or a Product Admin does not grant you any rights in the Launch product. You must belong to at least one product profile.
 
-Search for the user you'd like to add to the group. You can search by name or by email address. This auto-populates from existing users in your Org. Once you have found the user you want, click on their name.
+Search for the user you'd like to add to the group. You can search by name or by email address. This step auto-populates from existing users in your Org. After you find the user you want to add, click on their name.
 
-Once you've added users, they receive an email letting them know that they now have rights to Launch. They can login to Launch at [https://launch.adobe.com](https://launch.adobe.com).
+After you've added users, they receive an email that notifies them know that they have rights to Launch. They can log in to Launch at [https://launch.adobe.com](https://launch.adobe.com).
 
-**Note:** If the user does not exist, you can simply type their entire email address, then provide a first and last name. The new user receives an email, and when they create an Adobe ID from that email invitation, they are linked together with the user account you created for them. If you are assigning permissions for yourself, you won't have this issue.
+**Tip:** If the user does not exist, type their email address, a first name, and a last name. This user receives an email, and when they create an Adobe ID from that email invitation, they are linked with the user account that you created for them. If you are assigning permissions for yourself, you will not have this issue.
 
 ## Common issues
 
 ### Error loading account
 
-When you login to launch, you receive a message saying "Error Loading Account".
+When you log in to Launch, you see a _Error Loading Account_ message.
 
 ![](../.gitbook/assets/profile-error.png)
 
-Resolution: Your user does not belong to any Launch product profiles. See the steps above to create a profile and assign rights to it, and to assign a user to a profile.
+**Resolution**: This means that your user does not belong to any Launch product profiles. To resolve this issue, see [create a profile](user-permissions.md#3-create-your-product-profile) and [assign rights to it](user-permissions.md#5-assign-rights), and to [assign a user to a profile](user-permissions.md#6-assign-users-to-groups).
 
 ### Grayed-out Property Button
 
-Once you've logged in, you can't add any Properties.
+After you log in, you cannot add any Properties.
 
-Resolution: Your user account does not belong to a product configuration that has the Manage Properties right. Go back to Step 5 above.
+**Resolution**: Your user account does not belong to a product configuration that has the Manage Properties right. Go back to [Step 5](user-permissions.md#5-assign-rights) above.
 
