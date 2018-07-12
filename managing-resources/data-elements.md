@@ -72,7 +72,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 
-## Types of data elements
+## Data Elements available in the Web Core extension
 
 Data Element types are determined by the extension. There is no limit to the types that can be created.
 
