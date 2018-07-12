@@ -1,4 +1,4 @@
-# Core Extension
+# Core Extension for Web properties
 
 The Core extension is the default extension released with Launch.
 
