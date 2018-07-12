@@ -1,36 +1,40 @@
+---
+description: >-
+  A build is the set of files that contains all of the code that runs on your
+  website.
+---
+
 # Builds
 
-A build is the set of files containing all the code that runs on your website.
+It is a composite of the changes that you specified in a library and everything that has been submitted, approved, or published before it.
 
-It is a composite of the changes you specified within a library, as well as everything that has been submitted, approved, or published before it.
-
-The build consists of one or more JavaScript files that reference each other. These files are delivered to your hosting location using the environment and adapter that you have chosen for the library. The embed code that you deploy on your site points to this same location so the files can load in a browser when a user accesses your site.
+The build consists of one or more JavaScript files that reference each other. These files are delivered to your hosting location using the environment and adapter that you selected for the library. The embed code that you deploy on your site points to this hosting location so that the files can load in a browser when a user accesses your site.
 
 ## File format
 
-The default file format for builds is a package of .js files that contain all the required code for your extensions, data elements, and rules to run in the way that you want them to.
+The default file format for builds is a package of `.js` files that contain all the required code for your extensions, data elements, and rules to run in the way that you want them.
 
-However, in certain cases, you might prefer a .zip archive of the files rather than the executable JavaScript file. To create the .zip file, every environment has an Archive option. If you click this box, your builds are delivered as a .zip archive rather than as executable files. However, the build is still delivered to the location specified by the adapter.
+Sometimes, you might prefer a `.zip` archive of the files rather than the executable JavaScript file. To create the `.zip` file, every environment has an **Archive** option. When you select this box, your builds are delivered as a `.zip` archive rather than as executable files. However, the build is still delivered to the location that was specified by the adapter.
 
-To complete a build, select a library and click the Build option that is available at that level of the publishing process \(Build for Development, Build for Staging, and so on..
+To complete a build, select a library, and click the Build option that is available at that level of the publishing process \(Build for Development, Build for Staging, and so on\).
 
 ## Minification
 
-Minification lowers bandwidth costs and improves speed by stripping data that isn't required for execution from a file.
+Minification reduces the bandwidth costs and improves speed by stripping data from a file that is not required for execution.
 
 To increase performance, Launch minifies everything, including:
 
-* The main Launch library
-* Module code provided by extension developers as part of an extension
-* Custom code provided by Launch users
+* The main Launch library.
+* Module code that is provided by extension developers as part of an extension.
+* Custom code provided by Launch users.
 
-Note: If your module code and custom code are already minified, Launch minifies it again. This second minification doesn't provide additional benefits, but it doesn't cause any harm and it makes Launch less complex and easier to maintain.
+**Important**: If your module code and custom code are already minified, Launch minifies it again. While the second minification does not provide additional benefits, it is not harmful and makes Launch easier to maintain.
 
-Any embed codes provided in Launch point to the minified version of code, as seen in the file names, which follow the standard naming convention for minified files:
+Any embed codes in Launch point to the minified version of code, as seen in the file names, which follow the standard naming convention for minified files:
 
 `launch-%environment_id%.min.js`
 
-If you want to see the unminified code, remove .min from the file name:
+To see the unminified code, remove `.min` from the file name:
 
 `launch-%environment_id%.js`
 
