@@ -143,7 +143,7 @@ Before beginning, review the [Best practices for planning properties](companies-
 
 1. Navigate to your company page, then click Add New Property.
 
-   ![](../.gitbook/assets/property-create.jpg)
+   ![](../.gitbook/assets/mobile-property.png)
 
 2. Fill in the fields:
 
