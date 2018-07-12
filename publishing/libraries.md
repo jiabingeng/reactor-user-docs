@@ -6,7 +6,10 @@ When you create a library, specify the changes that you want to make to your lib
 
 Remember the following information about libraries:
 
-* Libraries contain the addition or removal of:  Rules Elements Extension configruation
+* Libraries contain the addition or removal of:  
+  * Rules 
+  * Elements 
+  * Extension configruation
 * Libraries must be assigned to an environment before they can be compiled in a build.
 * Libraries are approved or rejected as a whole. You cannot approve or reject individual items within a library.
 * A library moves between several environments as it makes its way through the publishing workflow.
