@@ -72,13 +72,13 @@ Data elements are the building blocks for rules. Data elements let you create a 
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 
-## Data Elements available in the Web Core extension
+## Data elements available in the Web Core extension
 
 Data Element types are determined by the extension. There is no limit to the types that can be created.
 
 The following sections describe the types of data elements available in the Core extension. Other extensions use other types of data elements.
 
-### JavaScript Variable
+### JavaScript variable
 
 Any available JavaScript object or variable can be referenced using the path field.
 
@@ -101,7 +101,7 @@ If you use a data collector object as party of your data layer, simply use dot n
 
 `window.document.title`
 
-### DOM Attribute
+### DOM attribute
 
 Any element value can be retrieved, such as a div or H1 tag.
 
@@ -123,7 +123,7 @@ Any available domain cookie can be referenced in the cookie name field.
 
 `cookieName`
 
-### URL Querystring Parameter
+### URL querystring parameter
 
 Specify a single URL parameter in the URL Parameter field.
 
@@ -133,7 +133,7 @@ Only the name section is necessary and any special designators like "?" or "=" s
 
 `contentType`
 
-### Custom Script
+### Custom script
 
 Custom JavaScript can be entered into the UI by clicking Open Editor and inserting code into the editor window.
 
