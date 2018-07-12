@@ -4,18 +4,22 @@ When you create a build, Launch delivers that build to a location determined by 
 
 You can choose to have Launch manage that location for you or to manage it yourself.
 
-## Adobe-managed adapter
+## Adobe Hosted adapter
 
 If you choose to have Launch manage the hosting for your build, Launch delivers the build to the Akamai Edge CDN. The embed code references the delivery location of these files so a browser can retrieve the files as needed.
 
 This is the easiest, quickest, way to create an adapter for your environments.
 
-### Create Akamai adapter
+### A note on adapters for mobile properties
+
+When you create a mobile property only a single adapter is necessary. Mobile adapters will only have the option to be Hosted by Adobe. Having the SDK configuration changes hosted ensures that all of your resource changes will properly get picked up by the mobile SDK.
+
+### Creating an Adobe hosted adapter
 
 1. Open the Adapters tab.
 2. Create the new adapter.
 3. Name the adapter.
-4. Select Akamai as the adapter type.
+4. Select Hosted by Adobe as the adapter type.
 5. Click Save.
 
 ### About Akamai
