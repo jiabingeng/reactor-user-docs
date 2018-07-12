@@ -131,7 +131,9 @@ Here are a some sample scenarios:
 
 ### Client-side rule handling
 
-The load order for rules depends on whether the rule action is configured with JavaScript or HTML, and whether the rules uses a page bottom or top event or a different type of event.
+The load order for rules depends on the following:
+  * whether the rule action is configured with JavaScript or HTML.
+  * Whether the rules uses a page bottom or top event or a different type of event.
 
 You can use `document.write` in your custom scripts regardless of the events configured for the rule.
 
