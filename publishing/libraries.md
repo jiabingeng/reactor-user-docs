@@ -1,22 +1,17 @@
 # Libraries
 
-A library is a set of instructions for how extensions, data elements, and rules will interact with one another once they've been deployed.
+A library is a set of instructions for how extensions, data elements, and rules will interact with each other after they are deployed. 
 
-When creating a library, you will specify the changes you want to make to your library.
+When you create a library, specify the changes that you want to make to your library. At build time, these changes are combined with everything that has been submitted and is approved or published in previous libraries.
 
-At build time, these changes are combined with everything that has been submitted, approved, or published in previous libraries.
+Remember the following information about libraries:
 
-Libraries contain the addition or removal of:
+* Libraries contain the addition or removal of:  Rules Elements Extension configruation
+* Libraries must be assigned to an environment before they can be compiled in a build.
+* Libraries are approved or rejected as a whole. You cannot approve or reject individual items within a library.
+* A library moves between several environments as it makes its way through the publishing workflow.
 
-* Rules
-* Elements
-* Extension configuration
 
-Libraries must be assigned to an environment before they can be compiled into a build.
-
-Libraries are approved or rejected as a whole. You cannot approve or reject individual items within a library.
-
-A library moves between several environments as it makes its way through the publishing workflow.
 
 ## Create a library
 
