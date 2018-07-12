@@ -93,5 +93,5 @@ Available actions for a library in Approved state are:
 
 ### Published
 
-The library is live in the production environment. This column shows which libraries have been published and their publish dates. You can look at these libraries, but you cannot make changes. If you want to change what's in your production environment, you'll need to create a new library and push it through the approval process.
+The library is live in the production environment. This column shows which libraries have been published and their publish dates. You can look at these libraries, but you cannot make changes. To make changes in your production environment, create a new library and push it through the approval process.
 

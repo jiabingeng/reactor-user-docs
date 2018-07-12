@@ -2,16 +2,14 @@
 
 ## Permission Types
 
-To work in Launch, there are two user permissions to understand:
+To work in Launch, there are two types of user permissions:
 
-* **Experience Cloud Permissions:** Found in the Admin Console at the company level, Experience Cloud permissions govern who can control group permissions and group membership for all Experience Cloud products.
+* **Experience Cloud Permissions:** Found in the Admin Console at the company level, Experience Cloud permissions govern users who can control group permissions and group membership for all Experience Cloud products.
 * **Launch Permissions:** The permissions for Launch, one of the Experience Cloud products, are found in the Admin Console at the Product Profile level. Launch permissions govern which users can actually perform certain actions when logged into Launch.
-
-This article examines these different permissions types in detail.
 
 ### Experience Cloud Permissions
 
-This section discusses factors that are important to understand when using Launch. See [Administrative Roles in the Enterprise User Guide](https://helpx.adobe.com/au/enterprise/using/admin-roles.html) for a comprehensive view of Experience Cloud permissions.
+This section discusses factors that are important to understand when using Launch. For a comprehensive view of Experience Cloud permissions, see [Administrative Roles in the Enterprise User Guide](https://helpx.adobe.com/au/enterprise/using/admin-roles.html).
 
 #### Organization Administrator
 
@@ -57,7 +55,7 @@ For example: Product Profile A grants Henry the Develop right for Property 1. Pr
 
 Different companies have different needs when creating new Product Profiles. These needs vary based on company size, org structure, number of sites, number of people involved in managing tags, and so on.
 
-Below are a few common scenarios and a recommended starting point as you think about creating Product Profiles and adding users to them.
+Here are a few common scenarios and a recommended starting point as you think about creating Product Profiles and adding users to these profiles.
 
 ### 1\) One-person Show
 
@@ -93,13 +91,13 @@ The steps below guide you through the process of assigning permissions. You can 
 
 Steps 1-3 below can be bypassed by navigating directly to [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/products). If you belong to more than one organization, select the correct org from the top nav on the right.
 
-### 1. Sign in to [http://marketing.adobe.com](http://marketing.adobe.com)
+### 1. Sign in to [http://marketing.adobe.com](http://marketing.adobe.com).
 
-Sign in to [http://marketing.adobe.com](http://marketing.adobe.com) with your Adobe ID, then choose the organization to use within Launch from the Navigation menu.
+Sign in to [http://marketing.adobe.com](http://marketing.adobe.com) with your Adobe ID, and from the Navigation menu, select the organization to use in Launch.
 
 ![](../.gitbook/assets/nav-menu.png)
 
-Open the solution picker by clicking the 9-dots icon from the navigation menu, then click Administration.
+Open the solution picker by clicking the 9-dots icon from the navigation menu and click **Administration**.
 
 ![](../.gitbook/assets/choose-admin.png)
 
@@ -108,27 +106,27 @@ If you can't see this link, both of the following conditions are true:
 * You are not an org admin.
 * You are not a product admin for any Experience Cloud products.
 
-In either case, ask an org admin to perform these steps for you, or to make you a product admin for Launch so you can do it yourself.
+In either case, ask an org admin to complete these steps for you, or to make you a product admin for Launch so you can do it yourself.
 
 **Note:** If you don't know who your org admin is, contact Client Care.
 
 ### 2. Open Admin Console
 
-Click Launch Admin Console.
+Click **Launch Admin Console**.
 
 ![](../.gitbook/assets/launch-admin-console-button.png)
 
-Click the Launch, by Adobe - %Company Name% card.
+Click the **Launch, by Adobe -** _**Company Name**_ card.
 
 ![](../.gitbook/assets/launch-card.png)
 
-You can also click Products in the top nav, then select Launch, by Adobe - %Company Name% from the left nav.
+You can also click **Products** in the top nav and select **Launch, by Adobe -** _**Company Name**_ from the left nav.
 
 ![](../.gitbook/assets/products-select-launch.png)
 
-If you do not see a Launch, by Adobe card and or if Launch, by Adobe does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for Launch.
+If you do not see a Launch, by Adobe card, or if **Launch, by Adobe** does not appear in this list, you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Launch, find an Org Admin who can complete these steps or who can make you a Product Admin for Launch.
 
-After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - %Company Name%.
+After you select **Launch**, a list of product profiles displays. These profiles are similar to permission groups. One profile is created for you and is named **Launch -** _**Company Name**_.
 
 ![](../.gitbook/assets/product-profiles.png)
 
@@ -136,43 +134,45 @@ After you select Launch, a list of product profiles displays. Think of these pro
 
 If you are editing an existing product profile, skip this step.
 
-Choose to edit this product profile, or create a new one.
+Edit this product profile or create a new one.
 
-To create a new product profile, click New Profile.
+To create a new product profile, click **New Profile**.
 
-Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then click Done.
+Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then click **Done**.
 
 ![](../.gitbook/assets/profile-new.png)
 
 ### 4. Edit your product profile
 
-Select the product profile from the list, then open the Permissions tab. You can assign permissions across two dimensions: Properties and Rights.
+Select the product profile from the list and open the **Permissions** tab. You can assign permissions across two dimensions: Properties and Rights.
 
 ![](../.gitbook/assets/profile-permissions.png)
 
-To assign properties to this group definition, open the Properties section.
+To assign properties to this group definition, open the **Properties** section.
 
 ![](../.gitbook/assets/profile-properties-select.png)
 
-A list shows your Launch properties.
+Your Launch properties are displayed.
 
 ![](../.gitbook/assets/profile-properties.png)
 
 By default, new product configurations automatically include properties. This means that all properties \(present and future\) are included in the group definition.
 
-If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking Add.
+If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking **Add**.
 
 ![](../.gitbook/assets/profile-properties-add.png)
 
-Click Save when finished.
+Click **Save**.
 
 ### 5. Assign rights
 
-Assign the rights you want to be part of your group definition. Open the Rights section.
+To assign the rights you want to be part of your group definition, open the **Rights** section.
 
 ![](../.gitbook/assets/profile-rights-select.png)
 
-Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the + Add All button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights details](user-permissions.md#rights-details). Click Save when finished. If Save is not available, you didn't make any changes and the profile won't give you any rights
+Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by clicking **+ Add All**, ****or you can assign individual rights by clicking **+** next to each right.   
+  
+For more information on what permissions are associated with each right, see [Rights details](user-permissions.md#rights-details). Click **Save** when finished. If **Save** is not available, you did not make any changes and the profile won't give you any rights.
 
 ![](../.gitbook/assets/profile-rights.png)
 
