@@ -3,6 +3,7 @@
 A property is a collection of rules, data elements, configured extensions, environments, and libraries. 
 
 A web property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains, but keep in mind there is only one publish embed code per property.
+
 A mobile property type can contain multiple applications. For example, in a mobile property you can manage the same set of rules and extensions across multiple iOS and Android applications. 
 
 For a video tutorial, see [Creating your first property](../getting-started/videos.md).
