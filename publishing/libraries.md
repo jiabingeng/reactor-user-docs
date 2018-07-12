@@ -1,6 +1,6 @@
 # Libraries
 
-A library is a set of instructions for how extensions, data elements, and rules will interact with each other after they are deployed. 
+A library is a set of instructions for how extensions, data elements, and rules will interact with each other after they are deployed.
 
 When you create a library, specify the changes that you want to make to your library. At build time, these changes are combined with everything that has been submitted and is approved or published in previous libraries.
 
@@ -14,52 +14,52 @@ Remember the following information about libraries:
 * Libraries are approved or rejected as a whole. You cannot approve or reject individual items within a library.
 * A library moves between several environments as it makes its way through the publishing workflow.
 
-
-
 ## Create a library
 
-1. Open the Publishing tab.
+1. Open the **Publishing** tab.
 
    The Publishing page lists the Dev libraries and provides the means to submit them for approval, move them to staging, or publish them to production.
 
-2. Click Add New Library.
+2. Click **Add New Library**.
 
    ![](../.gitbook/assets/library-create.jpg)
 
 3. Name the library.
 4. Assign the library to a Dev environment.
-5. Add a change to the library. To add an item, click Add a Change, then choose the items you want to add. Any item that has been edited or deleted is available to add to the chosen library.
+5. Add a change to the library. 
+6. To add an item, click **Add a Change** and choose the items you want to add.   
+   Any item that has been edited or deleted is available to add to the selected library.
 
    ![](../.gitbook/assets/library-add-change.jpg)
 
-   You can add the following to your library:
+   You can add the following items to your library:
 
    * Rules
    * Data elements
    * Extension configurations
 
-6. To add any resources that have changed, click Add All Changed Resources.
-7. Click Save or Save and Build for Development.
+7. To add any resources that have changed, click **Add All Changed Resources**.
+8. Click **Save** or **Save and Build for Development**.
 
    Deploying compiles a build and deploys it to the assigned environment.
 
-Once a library is created, use the drop down menu for that library to select one of the following options:
+After the library is created, use the drop down menu for that library to select one of the following options:
 
-* Edit
+* **Edit**
 
-  Change the library configuration.
+  Changes the library configuration.
 
-* Build for Development
+* **Build for Development**
 
   Compiles a build and deploy it to the assigned environment.
 
-* Submit for Approval
+* **Submit for Approval**
 
-  Make the library available for an Approver to move it to the next step in the publishing process
+  Makes the library available for an Approver to move it to the next step in the publishing process
 
-* Delete
+* **Delete**
 
-  Remove that library from the publishing process.
+  Removes the library from the publishing process.
 
 ![](../.gitbook/assets/library-menu.png)
 
