@@ -122,14 +122,8 @@ However, Adobe recognizes there might be edge cases where this recommendation mi
 
 Here are a some sample scenarios:
 
-* Five rules share an event. 
-  * All have default priority. 
-  * I want one of them to run last. 
-  * I just need to edit that one Rule Component and give it a number higher than 50 \(60 for example\).
-* Five rules share an event. 
-  * All have default priority. 
-  * I want one of them to run first. 
-  * I just need to edit that one Rule Component and give it a number lower than 50 \(40 for example\).
+* Five rules share an event.  All have default priority, and I want one of rules  to run last. I just need to edit that one Rule Component and give it a number higher than 50 \(60 for example\).
+* Five rules share an event.  All have default priority. I want one of them to run first. I just need to edit that one Rule Component and give it a number lower than 50 \(40 for example\).
 
 ### Client-side rule handling
 
