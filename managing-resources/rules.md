@@ -56,8 +56,8 @@ Create a rule by specifying what actions occur when a condition is met.
 
 2. Name the rule.
 3. Click the **Events Add** icon.
-4. Select your extension and one of the event types that are available for that extension and configure the properties for the event.   
-  
+4. Select your extension and one of the event types that are available for that extension and configure the properties for the event.
+
    **Tip**: The available event types are defined by the extension.
 
    ![](../.gitbook/assets/rule-event-config.png)
@@ -66,27 +66,27 @@ Create a rule by specifying what actions occur when a condition is met.
 
 5. Set the **Order parameter** and click **Keep Changes**.
 
-   The default order for all rule components is 50. If you want one to run sooner, give it a number less  than 50.
+   The default order for all rule components is 50. If you want one to run sooner, give it a number less than 50.
 
    * Order of execution is the numerical order, for example, 1 comes before 3, and 3 comes before 10. 10 comes before 100, and so on.
    * Rules that have the same order run in no particular order.
-   * Rules are fired in order, but do not necessarily finish in the same order.   
+   * Rules are fired in order, but do not necessarily finish in the same order.  
      If Rule A and Rule B share an event, and you assign an order so that Rule A comes first, if Rule A does something asynchronously, there is no guarantee that Rule A will finish before Rule B starts.
 
      If you want Rule A to run later, give it a number higher than 50. For more information about ordering, see [Rule ordering](rules.md#rule-ordering).
 
-6. Click the **Conditions Add** icon,  choose a condition type, and configure the properties for your condition. 
+6. Click the **Conditions Add** icon, choose a condition type, and configure the properties for your condition.
 7. Click **Keep Changes**.
 
    You can add other conditions, and multiple conditions are joined with an OR. The rule's exceptions will be evaluated if any of the events are met with their conditions.
 
-8. Click the **Exceptions Add** icon and choose an exception type and configure the properties for your exception. 
+8. Click the **Exceptions Add** icon and choose an exception type and configure the properties for your exception.
 9. Click **Keep Changes**.
 
    You can add other exceptions, and multiple exceptions are joined with an OR. The rule's actions will be evaluated if any of the events are met with their conditions and exceptions.
 
-10. Click the **Actions Add** icon, select your extension and an action type, configure the properties for the action, and click **Keep Changes**.   
-  
+10. Click the **Actions Add** icon, select your extension and an action type, configure the properties for the action, and click **Keep Changes**.
+
     **Tip**: The available action types are defined by the extension.
 
     ![](../.gitbook/assets/rule-action-config.jpg)
@@ -97,7 +97,7 @@ Create a rule by specifying what actions occur when a condition is met.
 
     When you [publish](../publishing/), you can add this rule to a library and deploy it.
 
-When you edit or update an existing rule, a new version of the rule is created, which you can deploy. 
+When you edit or update an existing rule, a new version of the rule is created, which you can deploy.
 
 When creating or editing rules, you can save and build to your [active library](../publishing/libraries.md#active-library). This step immediately saves your change to your library and executes a build. The status of the build is displayed.
 
@@ -105,18 +105,18 @@ When creating or editing rules, you can save and build to your [active library](
 
 Rule ordering allows you to control the order of execution for rules that share an event, and it might sometimes be important to have your rules fire in a specific order.
 
-Here are some examples: 
+Here are some examples:
 
 1. You have several rules that conditionally set Analytics variables, and you need to ensure that the rule with `Send Beacon` goes last.
 2. You have a rule that fires Target and another rule that fires Analytics and you want the Target rule to run first.
 
 Ultimately, the responsibility for executing actions in order lie with the extension developer of the event type that you are using. For Adobe extensions, Adobe makes sure this works properly. For third-party extensions, Adobe can only provide the necessary guidance, but it is up to the developers to implement everything correctly.
 
-Adobe strongly recommends that you order your rules with positive numbers between 1 and 100. \(The default value is 50.\) 
+Adobe strongly recommends that you order your rules with positive numbers between 1 and 100. \(The default value is 50.\)
 
-**Tip**: Remember you have to maintain your order. 
+**Tip**: Remember you have to maintain your order.
 
-However, Adobe recognizes there might be edge cases where this recommendation might feel limiting, so you can use other numbers. Launch supports negative numbers to a **minimum** of  -1.79 \* 10^308, 0, and positive numbers to a **maximum** of 1.79 \* 10^308. You can also use up to 17 decimal places.
+However, Adobe recognizes there might be edge cases where this recommendation might feel limiting, so you can use other numbers. Launch supports negative numbers to a **minimum** of -1.79 \* 10^308, 0, and positive numbers to a **maximum** of 1.79 \* 10^308. You can also use up to 17 decimal places.
 
 ### Scenarios
 
@@ -126,14 +126,14 @@ Here are a some sample scenarios:
   * All have default priority, and I want one of rules  to run last. 
   * I just need to edit that one Rule Component and give it a number higher than 50 \(60 for example\).
 * Five rules share an event.  
-  * All have default priority, and I want one of them to run first. 
+  * All have default priority, and I want one of the rules to run first. 
   * I just need to edit that one Rule Component and give it a number lower than 50 \(40 for example\).
 
 ### Client-side rule handling
 
-The load order for rules depends on whether the rule action is configured with JavaScript or HTML, and whether the rules uses a page bottom or top event, or a different type of event.
+The load order for rules depends on whether the rule action is configured with JavaScript or HTML, and whether the rules uses a page bottom or top event or a different type of event.
 
-You can use `document.write` within your custom scripts regardless of the events configured for the rule.
+You can use `document.write` in your custom scripts regardless of the events configured for the rule.
 
 You can order different custom code types among each other. For example, you can now have a JavaScript custom code action, then an HTML custom code action, then a JavaScript custom code action. Launch ensures that they are executed in that order.
 
