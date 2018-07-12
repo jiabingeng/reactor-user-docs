@@ -1,16 +1,17 @@
 # Extensions
 
-An extension is a packaged set of code that extends the Launch interface and the library functionality. Launch is the platform, and extensions are like apps that run on the platform.
+An extension is a packaged set of code that extends the Launch interface and the library or mobile SDK functionality. Launch is the platform, and extensions are like mini-apps that run on the platform.
 
-Adding an extension adds new data elements and new options for creating rules.
+Adding an extension may add new data elements and new options for creating rules.
 
 Note: Extensions are similar to _tools_ in the previous Dynamic Tag Management.
 
-Extensions determine the elements that are available when building properties, rules, and data elements. They provide:
+Extensions determine the elements that are available when building properties, rules, and data elements. They can potentially provide:
 
 * Events, conditions, and exceptions
 * Data elements
 * JavaScript
+* SDK code for mobile apps
 
 Use the links at the top of the Extensions list to view installed extensions, the extensions catalog, or updates.
 
