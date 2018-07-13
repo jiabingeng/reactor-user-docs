@@ -34,7 +34,7 @@ Akamai is the primary external hosting option, provides you with a reliable host
 
 When you choose the Akamai option, it means that your Launch library files are served to your visitors from Adobe’s Edge CDN, which runs on Akamai architecture.
 
-Akamai is robust when serving content to a global, high-volume audience of Web visitors. Akamai runs redundant networks of load-balanced, geo-optimized nodes to serve content quickly visitors regardless of  they are located around the world.
+Akamai is robust when serving content to a global, high-volume audience of Web visitors. Akamai runs redundant networks of load-balanced, geo-optimized nodes to serve content quickly visitors regardless of they are located around the world.
 
 Specifically, Akamai runs more than 137,000 servers in 87 countries in more than 1,150 networks. In terms of redundancy, Akamai does not just route from one server to another, Akamai routes from one node of servers to another node of servers as-needed. In other words, each node consists of multiple servers for redundancy within a node, so a box going down is not an issue because the other boxes in the node take over. If a node goes down, Akamai serves from the next closest one, with the same cached content. Nodes are dynamically selected based on visitor location, traffic load, and other factors so content is consistently served from the best local node for each visitor.
 

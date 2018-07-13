@@ -18,11 +18,7 @@ This section contains information that is useful for Launch administrators.
 
   An _environment_ is a destination for deployment. An environment has a 1:1 relationship with an embed code or SDK configuration.
 
-
-
 * [**Link DTM Embed Code to Launch**](./)
 
   For DTM customers creating a web property, when you link your DTM embed code to Launch, you can keep your DTM production embed code on a page, but serve Launch files there instead of DTM.
-
-
 

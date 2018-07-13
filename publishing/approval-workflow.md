@@ -1,9 +1,3 @@
----
-description: >-
-  The Approval workflow refers to the process of creating libraries, testing
-  builds, and approving them for production.
----
-
 # Approval Workflow
 
 Tip: The available actions depend on the state of the library and the level of permission you have.

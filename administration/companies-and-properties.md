@@ -11,7 +11,7 @@ A property can be any grouping of one or more domains and subdomains. You can ma
 
 A web property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains, but keep in mind there is only one publish embed code per property.
 
-A mobile property type can contain multiple applications. For example, in a mobile property you can manage the same set of rules and extensions across multiple iOS and Android applications. 
+A mobile property type can contain multiple applications. For example, in a mobile property you can manage the same set of rules and extensions across multiple iOS and Android applications.
 
 For a video tutorial, see [Creating your first property](../getting-started/videos.md).
 
@@ -25,8 +25,7 @@ You can have one or several Launch company accounts. Companies contain propertie
 
 In Launch, there are a few ways to handle multiple-geo markets, business units, applications, domains, and subdomains. For example, you might have three properties in your company account where one property contains all of your blog sites, a second property contains all of your ecommerce sites, and the third property contains all of your lead-generation sites.
 
-**Tip**: Each property requires its own embed codes in your page templates. Any domains or subdomains that you want to include in a property will have the same embed codes in the page templates when Dynamic Tag Management is first installed on your site.
-For example, you might have four properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, a the third contains all of your lead-generation sites, and a fourth contains all of your mobile applications.
+**Tip**: Each property requires its own embed codes in your page templates. Any domains or subdomains that you want to include in a property will have the same embed codes in the page templates when Dynamic Tag Management is first installed on your site. For example, you might have four properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, a the third contains all of your lead-generation sites, and a fourth contains all of your mobile applications.
 
 ### Can we use separate instances for each?
 
@@ -59,8 +58,6 @@ Considering the following when planning properties:
 If the data you need to collect is similar across everything, it might make sense to group those sites or applications into one property to avoid duplicating rules or copying rules from one property to another.
 
 If your data collection needs are unique for each site or application, it might make sense to separate them into their own properties. This method lets you control the data collection more specifically, without using large amounts of conditional logic in custom scripts.
-
-<!-- For example, if 80 percent of the data you are collecting is the same, or similar, it makes sense to group those sites together into the same property. If the data is unique for each site, it makes sense to put each site into its own property.--> <!-- This seemed to be repetitive -->
 
 #### Variables
 
@@ -111,7 +108,7 @@ Click a property to see an overview of that property. The overview shows any act
 
 Create a Web property in Launch.
 
-Note: Only a user with sufficient rights can create a property. See [User Management](users.md).
+Note: Only a user with sufficient rights can create a property. See [User Management](https://github.com/jiabingeng/mobile-launch/tree/99e9070fe9a3f19319363a0299dd4c8ead31fb10/administration/users.md).
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
@@ -136,12 +133,12 @@ Before beginning, review the [Best practices for planning properties](companies-
 4. Click Save.
 
    The extension is automatically installed into the new property.
-   
+
 ## Create a Mobile property
 
 Create a Mobile property in Launch.
 
-Note: Only a user with sufficient rights can create a property. See [User Management](users.md).
+Note: Only a user with sufficient rights can create a property. See [User Management](https://github.com/jiabingeng/mobile-launch/tree/99e9070fe9a3f19319363a0299dd4c8ead31fb10/administration/users.md).
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
@@ -154,11 +151,10 @@ Before beginning, review the [Best practices for planning properties](companies-
    **Name:** The name of your property.
 
    **Privacy:** Privacy defaults to "Opted In". This setting determines if the app should send identifying data by default. Note that function calls to the SDK can be made to stop sending data and to delete any data already collected.
-   
+
    **Use HTTPS:** Check this box on or off depending on how you would like the SDK to transfer data from the application.
 
 3. Click Save.
-
 
 ## Delete a property
 

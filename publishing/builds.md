@@ -1,9 +1,3 @@
----
-description: >-
-  A build is the set of files that contains all of the code that runs on your
-  website.
----
-
 # Builds
 
 It is a composite of the changes that you specified in a library and everything that has been submitted, approved, or published before it.

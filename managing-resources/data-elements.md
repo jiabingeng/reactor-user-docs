@@ -89,7 +89,7 @@ Here is an example of a markup contains a JavaScript variable called `Page_Name`
 
 When you create the Data Element in Launch, provide the path to that variable.
 
-If you use a data collector object as party of your data layer, use the dot notation in the Path to reference the object and property you want to capture into the Data Element, for example,  `_myData.pageName`, or `digitalData.pageName`, and so on.
+If you use a data collector object as party of your data layer, use the dot notation in the Path to reference the object and property you want to capture into the Data Element, for example, `_myData.pageName`, or `digitalData.pageName`, and so on.
 
 #### Example:
 
@@ -151,6 +151,4 @@ If you used any of the following data elements in the past, you must create a cu
 * URI
 * Protocol
 * Hostname
-
-
 

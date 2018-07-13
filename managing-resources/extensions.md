@@ -50,25 +50,24 @@ Launch is highly extendible, so you can easily add core functionality.
 **Tip**: A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
 1. From a property's overview page, open the **Extensions** tab.
-2. Select an extension, for example, **Mobile Core**.   
+2. Select an extension, for example, **Mobile Core**.  
    Remember the following information:
 
-    ![](../.gitbook/assets/extensions.png)
+   ![](../.gitbook/assets/extensions.png)
 
+* Select an extension from the extensions catalog.
+* Mouse over an extension in your list to configure or disable it.
+* Add other extensions from the catalog if they are not currently in your list.
 
-   * Select an extension from the extensions catalog.
-   * Mouse over an extension in your list to configure or disable it.
-   * Add other extensions from the catalog if they are not currently in your list.
+  The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following features:
 
-   The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following features:
+* Default event
+* Default conditions and exceptions
+* Default JavaScript
 
-   * Default event
-   * Default conditions and exceptions
-   * Default JavaScript
+  These defaults are the basis for the custom rules that you will build to create your extension.
 
-   These defaults are the basis for the custom rules that you will build to create your extension.   
-  
-   **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
+  **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This step immediately saves your change to your library and executes a build, and you can monitor the build status. You can also create a new library from the **Active Library** drop down.
 

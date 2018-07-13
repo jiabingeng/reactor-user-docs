@@ -1,9 +1,3 @@
----
-description: >-
-  An environment is a destination for deployment. An environment has a
-  one-to-one relationship with an embed code.
----
-
 # Environments
 
 Similar to how a library is a set of instructions for how you want your website to behave, an environment is a set of instructions for:
