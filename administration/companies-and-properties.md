@@ -9,6 +9,10 @@ description: >-
 
 A property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, if you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains.
 
+A web property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains, but keep in mind there is only one publish embed code per property.
+
+A mobile property type can contain multiple applications. For example, in a mobile property you can manage the same set of rules and extensions across multiple iOS and Android applications. 
+
 For a video tutorial, see [Creating your first property](../getting-started/videos.md).
 
 ## Companies
@@ -19,9 +23,10 @@ You can have one or several Launch company accounts. Companies contain propertie
 
 ## Separating the Launch environment for multiple entities
 
-In Launch, there are a few ways to handle multiple-geo markets, business units, domains, and subdomains. For example, you might have three properties in your company account where one property contains all of your blog sites, a second property contains all of your ecommerce sites, and the third property contains all of your lead-generation sites.
+In Launch, there are a few ways to handle multiple-geo markets, business units, applications, domains, and subdomains. For example, you might have three properties in your company account where one property contains all of your blog sites, a second property contains all of your ecommerce sites, and the third property contains all of your lead-generation sites.
 
 **Tip**: Each property requires its own embed codes in your page templates. Any domains or subdomains that you want to include in a property will have the same embed codes in the page templates when Dynamic Tag Management is first installed on your site.
+For example, you might have four properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, a the third contains all of your lead-generation sites, and a fourth contains all of your mobile applications.
 
 ### Can we use separate instances for each?
 
@@ -49,13 +54,13 @@ Considering the following when planning properties:
 
 #### Data
 
-**For all of your websites, is the data you are going to collect very similar, somewhat similar, or unique?**
+**For all of your websites or applications, is the data you are going to collect very similar, somewhat similar, or unique?**
 
-If the data you need to collect is similar across websites, it might make sense to group those sites into one property to avoid duplicating rules or copying rules from one property to another.
+If the data you need to collect is similar across everything, it might make sense to group those sites or applications into one property to avoid duplicating rules or copying rules from one property to another.
 
-If your data collection needs are unique for each site, it might make sense to separate those sites in their own properties. This method lets you control the data collection more specifically for each site, without using large amounts of conditional logic in custom scripts.
+If your data collection needs are unique for each site or application, it might make sense to separate them into their own properties. This method lets you control the data collection more specifically, without using large amounts of conditional logic in custom scripts.
 
-For example, if 80 percent of the data you are collecting across your sites is the same, or similar, it makes sense to group those sites together into the same property. If the data is unique for each site, it makes sense to put each site into its own property.
+<!-- For example, if 80 percent of the data you are collecting is the same, or similar, it makes sense to group those sites together into the same property. If the data is unique for each site, it makes sense to put each site into its own property.--> <!-- This seemed to be repetitive -->
 
 #### Variables
 
@@ -73,7 +78,7 @@ If the extensions, tags, and systems you are going to deploy through Launch are 
 
 If you are deploying Adobe Analytics on only one site, and your other extensions and tags are also unique to certain sites, you might want to create separate properties for those sites so you can control those specific extensions in one property.
 
-For example, If you are deploying Adobe Analytics, Target, and the same third-party tags and extensions across your sites, group sites together.
+For example, If you are deploying Adobe Analytics, Target, and the same 3rd-party tags and extensions across your sites, that is a reason to group sites together.
 
 #### People
 
@@ -87,11 +92,13 @@ The ability to deactivate a property is planned for a future release.
 
 ## Properties page
 
-A property can be any grouping of one or more domains and subdomains. There is only one publish embed code per property. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains.
+A property is a collection of rules, data elements, configured extensions, environments, and libraries. There is only one publish embed code per property.
 
-The left side of the screen shows the companies in your organization, which is useful if you manage multiple accounts. Select a company to see the properties and audit logs for that company.
+A property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains.
 
-Each property is shown in the **Properties** list.
+The left side of the screen shows the companies in your organization. This is particularly useful if you manage multiple accounts. Select a company to see the properties and audit logs for that company.
+
+Each property is shown in the Properties list.
 
 The **Properties** list shows the following information:
 
@@ -100,28 +107,68 @@ The **Properties** list shows the following information:
 
 Click a property to see an overview of that property. The overview shows any activity performed on the property. It also lists the metrics and extensions for the property.
 
-## Create a mobile property
+## Create a Web property
 
-**Tip**: Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
+Create a Web property in Launch.
 
-Before beginning, review [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties).
+Note: Only a user with sufficient rights can create a property. See [User Management](users.md).
 
-1. Navigate to your company page.
-2. Click **Add New Property**.
-3. Enter a property name. 
-4. For **Platform**, click **Mobile**.
-5. Select a privacy option. 
-6. Click **Save**.
+Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
+
+1. Navigate to your company page, then click Add New Property.
+
+   ![](../.gitbook/assets/property-create.jpg)
+
+2. Fill in the fields:
+
+   **Name:** The name of your property.
+
+   **URL:** The base URL of the property
+
+3. \(Optional\) Configure Advanced Settings.
+
+   **Return an empty string for undefined values of Data Elements:** Select this check box if you want undefined values to be empty, rather than to assign default values.
+
+   **Tracking Cookie Name:** Overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
+
+   **Anchor Delay \(Milliseconds\):** Specifies how long Launch waits for tags to fire on clicked links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. \(That is, user won't always wait the full length of the delay.\)
+
+4. Click Save.
 
    The extension is automatically installed into the new property.
+   
+## Create a Mobile property
 
-## Delete a mobile property
+Create a Mobile property in Launch.
 
-**Important:** Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
+Note: Only a user with sufficient rights can create a property. See [User Management](users.md).
 
-1. In the **Properties** list, select a property.
+Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
+
+1. Navigate to your company page, then click Add New Property.
+
+   ![](../.gitbook/assets/mobile-property.png)
+
+2. Fill in the fields:
+
+   **Name:** The name of your property.
+
+   **Privacy:** Privacy defaults to "Opted In". This setting determines if the app should send identifying data by default. Note that function calls to the SDK can be made to stop sending data and to delete any data already collected.
+   
+   **Use HTTPS:** Check this box on or off depending on how you would like the SDK to transfer data from the application.
+
+3. Click Save.
+
+
+## Delete a property
+
+Delete a property from Launch.
+
+Note: Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
+
+1. In the Properties list, select the property you want to delete.
 
    You can select multiple properties to delete.
 
-2. Click **Delete** and confirm the removal of the property.
+2. Click Delete, then confirm the removal of the property.
 

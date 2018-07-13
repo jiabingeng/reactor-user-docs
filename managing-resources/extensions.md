@@ -1,8 +1,8 @@
 # Extensions
 
-An extension is a packaged set of code that extends the Launch interface and the library functionality. Launch is the platform, and extensions are like apps that run on the platform.
+An extension is a packaged set of code that extends the Launch interface and the library or mobile SDK functionality. Launch is the platform, and extensions are like mini-apps that run on the platform.
 
-Adding an extension adds new data elements and new options for creating rules.
+Adding an extension may add new data elements and new options for creating rules.
 
 **Tip**: Extensions are similar to _tools_ in the previous Dynamic Tag Management.
 
@@ -11,6 +11,7 @@ Extensions determine the elements that are available when building properties, r
 * Events, conditions, and exceptions
 * Data elements
 * JavaScript
+* SDK code for mobile apps
 
 Use the links at the top of the Extensions list to view installed extensions, the extensions catalog, or updates.
 
@@ -51,6 +52,9 @@ Launch is highly extendible, so you can easily add core functionality.
 1. From a property's overview page, open the **Extensions** tab.
 2. Select an extension, for example, **Mobile Core**.   
    Remember the following information:
+
+    ![](../.gitbook/assets/extensions.png)
+
 
    * Select an extension from the extensions catalog.
    * Mouse over an extension in your list to configure or disable it.

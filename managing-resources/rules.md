@@ -6,7 +6,7 @@ Build rules to integrate the data and functionality of marketing and ad tech tha
 
 For an introductory video, see [Rule builder](../getting-started/videos.md).
 
-Events are where the majority of interactions on sites take place. You can measure and react to these interactions in real-time, without the need for JavaScript.
+Events are where the majority of interactions on sites  and applications take place. You can measure and react to these interactions in real-time, without the need for JavaScript.
 
 **Events \(If\):** The event is what you want the rule to look for. This is defined by choosing an event, any applicable conditions, and any exceptions.
 
@@ -36,7 +36,7 @@ If a specified event occurs, the conditions and exceptions are evaluated, the sp
 
 The events that are available depend on which extensions are installed. For information about the events in the Core extension, see [Core extension event types](../extension-reference/web/core-extension.md#core-extension-event-types).
 
-**Important**: DTM provided page load, event-based, and direct call event types. This is no longer true in Launch. Rather than event types, Launch extensions configure different individual events.
+**Important**: For previous DTM users, DTM provided page load, event-based, and direct call event types. This is no longer true in Launch. Rather than event types, Launch extensions configure different individual events.
 
 Only events are required, and the conditions and exceptions are optional.
 
@@ -128,6 +128,8 @@ Here are a some sample scenarios:
 * Five rules share an event.  
   * All have default priority, and I want one of the rules to run first. 
   * I just need to edit that one Rule Component and give it a number lower than 50 \(40 for example\).
+<!-- Should we section this off somehow for Web? -->
+
 
 ### Client-side rule handling
 
