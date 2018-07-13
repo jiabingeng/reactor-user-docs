@@ -1,6 +1,6 @@
 # Asynchronous Deployment
 
-Performance and non-blocking deployment of the JavaScript libraries required by our products is increasingly important to Adobe Experience Cloud users. Tools like [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) recommend that users change they way they deploy The Adobe libraries on their site. This article explains how to use the Adobe JavaScript libraries in an asynchronous fashion.
+Performance and non-blocking deployment of the JavaScript libraries required by our products is increasingly important to Adobe Experience Cloud users. Tools such as [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) recommend that users change they way they deploy the Adobe libraries on their site. This article explains how to use the Adobe JavaScript libraries in an asynchronous fashion.
 
 ## Synchronous vs asynchronous
 
@@ -46,11 +46,13 @@ Another consideration is that Launch has always provided a Page Bottom event typ
 
 ## Loading the Launch embed code asynchronously
 
-Launch provides a toggle to turn on asynchronous loading when creating an embed code when you configure an [environment](../administration/environments.md). You can also configure asynchronous loading yourself:
+Launch provides a toggle to enable asynchronous loading when creating an embed code when you configure an [environment](../administration/environments.md). 
+
+You can also configure asynchronous loading:
 
 1. Add an async attribute to the `<script>` tag to load the script asynchronously.
 
-   For the Launch embed code, that means changing this:
+   For the Launch embed code, change this:
 
    ```markup
    <script src="//www.yoururl.com/launch-EN1a3807879cfd4acdc492427deca6c74e.min.js"></script>
@@ -62,7 +64,7 @@ Launch provides a toggle to turn on asynchronous loading when creating an embed 
    <script src="//www.yoururl.com/launch-EN1a3807879cfd4acdc492427deca6c74e.min.js" async></script>
    ```
 
-2. Remove any code you may have previously added at the bottom of your tag:
+2. Remove any code you might have previously added at the bottom of your tag:
 
    ```markup
    <script type="text/javascript">_satellite.pageBottom();</script>

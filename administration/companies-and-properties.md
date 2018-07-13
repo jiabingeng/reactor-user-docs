@@ -1,6 +1,13 @@
+---
+description: >-
+  A property, or web property, is a collection of rules, data elements,
+  configured extensions, environments, and libraries. There is only one publish
+  embed code per property.
+---
+
 # Companies and Properties
 
-A property is a collection of rules, data elements, configured extensions, environments, and libraries. 
+A property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, if you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains.
 
 A web property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains, but keep in mind there is only one publish embed code per property.
 
@@ -10,27 +17,24 @@ For a video tutorial, see [Creating your first property](../getting-started/vide
 
 ## Companies
 
-In Launch, there is a 1:1 relationship between your companies and your Experience Cloud organizations.
+In Launch, there is a one-to-one relationship between your companies and your Experience Cloud organizations.
 
-First, you can have one or several Launch company accounts. Companies contain properties. You can have one or several or any number of properties within a company account. <!-- Within a property, you can have one or any number of domains or subdomains. -->
-
-Some customers have one company that contains all of their properties. Some have a company that contains many properties, one for each domain or application. <!-- Some companies will create several properties, one for each type of site they manage. --> <!-- Is this last sentence needed? Might add some confusion, where I think we have stated the company to property relationship options -->
+You can have one or several Launch company accounts. Companies contain properties, and you can have any number of properties in a company account. In a property, you can have any number of domains or subdomains. Some customers have one company that contains all of their properties. Some have a company that contains many properties, one for each domain. Some have a company that contains several properties, one for each type of site they manage.
 
 ## Separating the Launch environment for multiple entities
 
-There are a few ways to handle multiple geo markets, business units, applications, domains, and subdomains in Launch.
+In Launch, there are a few ways to handle multiple-geo markets, business units, applications, domains, and subdomains. For example, you might have three properties in your company account where one property contains all of your blog sites, a second property contains all of your ecommerce sites, and the third property contains all of your lead-generation sites.
 
+**Tip**: Each property requires its own embed codes in your page templates. Any domains or subdomains that you want to include in a property will have the same embed codes in the page templates when Dynamic Tag Management is first installed on your site.
 For example, you might have four properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, a the third contains all of your lead-generation sites, and a fourth contains all of your mobile applications.
-
-Note: Each web property requires its own embed codes in your page templates. Any domains or subdomains you want included in a particular property would have the same embed codes in the page templates when Dynamic Tag Management is first installed on your site.
 
 ### Can we use separate instances for each?
 
-As described above, you can use separate company accounts for your three entities, or you can combine the entities into one company account and split the domains/subdomains into different properties within that company account.
+As described above, you can use separate company accounts for your three entities, or you can combine the entities into one company account and split the domains/subdomains into different properties in that company account.
 
-### Is there a clear way to separate domains and settings within the same Launch instance?
+### Is there a clear way to separate domains and settings in the same Launch instance?
 
-Within a company account, you can use multiple properties to separate domains and settings, or you can put multiple domains into the same property.
+In a company account, you can use multiple properties to separate domains and settings, or you can put multiple domains in the same property.
 
 ### What are the pros and cons for using one Launch instance?
 
@@ -38,19 +42,19 @@ With one property that contains multiple domains and subdomains, you will eventu
 
 ### What is the approach recommended by Adobe: one or separate companies?
 
-Multiple Launch companies are not recommended. Adobe strongly suggests multiple properties in a single company.
+Multiple Launch companies are not recommended. Adobe strongly suggests multiple properties in one company.
 
 ## Best practices for planning properties
 
-Each implementation can be very different in Launch, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. Using the flexible User Management features and properties, you can create a configuration that matches your workflow and processes.
+Each implementation can be different in Launch, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. Using the flexible User Management features and properties, you can create a configuration that matches your workflow and processes.
 
-If the scenarios you are tracking, the data you are collecting, the extensions you are deploying, and the variables you are setting are similar across all or some of your domains and subdomains, it is easier to have those domains and subdomains grouped into the same property in Launch. If those are unique for each domain and subdomain, it is easier to have those domains and subdomains in their own property. If you choose to group domains and subdomains in a single property now, you can always change your mind and later create several web properties.
+If the scenarios you are tracking, the data you are collecting, the extensions you are deploying, and the variables you are setting are similar across all or some of your domains and subdomains, it is easier to have those domains and subdomains grouped into the same property in Launch. If those are unique for each domain and subdomain, it is easier to have those domains and subdomains in their own property. If you choose to group domains and subdomains into one property now, you can always change your mind and later create several web properties.
 
 Considering the following when planning properties:
 
 #### Data
 
-For all of your websites or applications, is the data you are going to collect very similar, somewhat similar, or unique?
+**For all of your websites or applications, is the data you are going to collect very similar, somewhat similar, or unique?**
 
 If the data you need to collect is similar across everything, it might make sense to group those sites or applications into one property to avoid duplicating rules or copying rules from one property to another.
 
@@ -60,7 +64,7 @@ If your data collection needs are unique for each site or application, it might 
 
 #### Variables
 
-Similar to data, for all of your websites, are the variables you are going to set in your Analytics and other extensions very similar, somewhat similar, or unique?
+**Similar to data, for all of your websites, are the variables you are going to set in your Analytics and other extensions very similar, somewhat similar, or unique?**
 
 For example, if eVar27 is used for the same source value across all of your websites, it might make sense to group those sites together so you can set those common variables across your sites in just one property.
 
@@ -68,7 +72,7 @@ If your variable usage is unique for each site, it might make more sense to sepa
 
 #### Extensions, Tags, and Systems
 
-Are the extensions, tags and systems you are going to deploy through Launch very similar, somewhat similar, or unique?
+**Are the extensions, tags and systems you are going to deploy through Launch very similar, somewhat similar, or unique?**
 
 If the extensions, tags, and systems you are going to deploy through Launch are very similar across your sites, you might want to include those sites in the same property.
 
@@ -78,9 +82,9 @@ For example, If you are deploying Adobe Analytics, Target, and the same 3rd-part
 
 #### People
 
-For the individuals, teams, and organizations that are working in Launch, will they need access to all of your websites, some of them, or just one of your domains or sub-domains?
+**For the individuals, teams, and organizations that are working in Launch, will they need access to all of your websites, some of them, or just one of your domains or sub-domains?**
 
-The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that Launch company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users \(non-admins\) by not giving them any role in that property.
+The User Management features allow you to assign different roles to different people for all of your properties or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that Launch company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users \(non-admins\) by not giving them any role in that property.
 
 ## Deactivating a property
 
@@ -96,10 +100,10 @@ The left side of the screen shows the companies in your organization. This is pa
 
 Each property is shown in the Properties list.
 
-The Properties list shows the following information:
+The **Properties** list shows the following information:
 
-* Property name
-* Status
+* **Property name**
+* **Status**
 
 Click a property to see an overview of that property. The overview shows any activity performed on the property. It also lists the metrics and extensions for the property.
 

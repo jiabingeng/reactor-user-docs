@@ -2,13 +2,13 @@
 
 You can delete data elements, rules, and extensions.
 
-Select the resource you want to delete. then click Delete.
+Select the resource you want to delete and click **Delete**.
 
 ## Prepare a resource for deletion
 
-Before you delete a resource, you must make sure it is in a state where it can be deleted.
+Before you delete a resource, verify that it is in a state where it can be deleted.
 
-Resources exist in different states and they depend on one another. In some cases, you must resolve conflicts before you can delete a resource. In other cases, you can delete the resource, but you have to update any other resources that are dependent on the one you delete.
+Resources exist in different states, and they depend on one another. In some cases, you must resolve conflicts before you can delete a resource. In other cases, you can delete the resource, but you have to update any other resources that are dependent on the resource that you delete.
 
 For example:
 

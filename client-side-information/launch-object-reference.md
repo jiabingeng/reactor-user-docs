@@ -2,7 +2,7 @@
 
 ## Launch Object Reference
 
-This reference documents the `_satellite` object and the things you can do with it.
+This reference documents the `_satellite` object and the tasks you can complete with this object.
 
 ### track
 
@@ -36,7 +36,7 @@ var product = _satellite.getVar('product');
 
 If a data element exists with a matching name, the data element's value will be returned. If no matching data element exists, it will then check to see if a custom variable with a matching name has previously been set using `_satellite.setVar()`. If a matching custom variable is found, its value will be returned.
 
-Note that in many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
+In many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
 
 ### setVar
 
@@ -190,7 +190,7 @@ _satellite.notify(message: string[, level: number])
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.logger.log()` instead.
+**Important**: This method has been deprecated. Use `_satellite.logger.log()` instead.
 
 ```javascript
 _satellite.notify('Hello world!');
@@ -198,13 +198,13 @@ _satellite.notify('Hello world!');
 
 Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user \(by calling `_satellite.setDebug(true)` or using an appropriate browser extension\).
 
-An optional logging level can be passed which will affect styling and filtering of the message being logged. Supported levels are as follows:
+An optional logging level can be passed which will affect styling and filtering of the message being logged. 
 
-3 - Informational messages.
+Here are the supported levels:
 
-4 - Warning messages.
-
-5 - Error messages.
+* 3 - Informational messages
+* 4 - Warning messages
+* 5 - Error messages
 
 If you do not provide a logging level or pass any other level value, the message will be logged as a regular message.
 
@@ -218,13 +218,13 @@ _satellite.setCookie(name: string, value: string, days: number)
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.cookie.set()` instead.
+**Important**: This method has been deprecated. Use `_satellite.cookie.set()` instead.
 
 ```javascript
 _satellite.setCookie('product', 'Circuit Pro', 3);
 ```
 
-Sets a cookie in the user's browser. The cookie will persist for the number of days specified.
+Sets a cookie in the user's browser, and the cookie will persist for the specified number of days.
 
 ### readCookie
 
@@ -236,7 +236,7 @@ _satellite.getCookie(name: string) => string
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.cookie.get()` instead.
+**Important**: This method has been deprecated. Use `_satellite.cookie.get()` instead.
 
 ```javascript
 var product = _satellite.getCookie('product');
@@ -254,7 +254,7 @@ _satellite.removeCookie(name: string)
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
+**Important**: This method has been deprecated. Use `_satellite.cookie.remove()` instead.
 
 ```javascript
 _satellite.removeCookie('product');
@@ -276,7 +276,7 @@ _satellite._container
 
 #### Example
 
-Important: This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+**Important**: This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 ### monitor
 
@@ -288,7 +288,7 @@ _satellite._monitors
 
 #### Example
 
-Important: This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+**Important**: This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 #### Sample
 
@@ -350,14 +350,16 @@ Called after a rule has been triggered and one of its conditions has failed. The
 
 If `ruleTriggered` is called, either `ruleCompleted` or `ruleConditionFailed` will be called shortly thereafter.
 
-Note: A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`\). Launch works with whatever supported methods have been provided by the monitor.
+Tip: A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`\). Launch works with the supported methods have been provided by the monitor.
 
 #### Testing the Monitor
 
-The example above specifies all three methods in the monitor. When they're called, the monitor logs out relevant information. To test this, set up two rules in the Launch library:
+The example above specifies all three methods in the monitor. When these methods are called, the monitor logs out relevant information. 
 
-1. A rule that has a click event and a browser condition that passes only if the browser is Chrome.
-2. A rule that has a click event and a browser condition that passes only if the browser is Firefox.
+To test this, set up the folloiwng rules in the Launch library:
+
+1. A rule that has a click event and a browser condition that passes **only** if the browser is Chrome.
+2. A rule that has a click event and a browser condition that passes **only** if the browser is Firefox.
 
 If you open the page in Chrome, open the browser console, and click the page, the following appears in the console:
 
