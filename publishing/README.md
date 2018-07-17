@@ -4,7 +4,7 @@ Publishing is all about getting your extensions, data elements, and rules to wor
 
 For an introductory video, see [Publishing workflow](../getting-started/videos.md).
 
-There are a few components and relationships that are important to understand in order to take full advantage of the publishing workflow. These are:
+To take advantage of the publishing workflow, ensure that you understand the following components and relationships:
 
 * [Libraries](libraries.md)
 
@@ -26,11 +26,11 @@ There are a few components and relationships that are important to understand in
 
   The embed code is the set of script tags that you place within the HTML on your site. These tags tell each browser where to retrieve the build. The embed code is attached to an environment and can change when you make changes to your environment configuration.
 
-The publishing process consists of:
+Here is an overview of the publishing process:
 
-1. Creating and editing libraries.
-2. Testing the functionality of those libraries where you need to test them.
-3. Deploying those libraries to your production site.
+1. Create and edit libraries.
+2. Test the functionality of those libraries where you need to test them.
+3. Deploy those libraries to your production site.
 
 ![](../.gitbook/assets/publishing.jpg)
 

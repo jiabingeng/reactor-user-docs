@@ -1,15 +1,4 @@
----
-Testing: Spaghetti
----
-
 # Managing Resources
 
-Dynamic Tag Management was primarily designed to help you place tags and code on your web pages. Launch provides that capability, but enhances it with even more features:
-
-* Collect any customer behavior based on select pages, or all pages
-* Easily deploy web apps
-* Browse, deploy, and activate the right marketing tool, such as a chat service, quickly and easily
-* Share data across your teams so the right people have access to the right data, ensuring delivery of better experiences
-
-Launch provides a sophisticated but easy-to-use rule builder so you can customize extensions \(or even create your own\) and store your code in customized libraries. You can host your libraries yourself, or let Adobe do it for you.
+One of the main benefits of Launch is the ability to quickly deploy changes to rules, data elements, and extensions to your web pages and mobile applications without having to republish your pages or resubmit your applications. Each rule, data element or extension is considered a resource. To publish any changes to your resources you must first group them into a library. Creating a new library will allow you to select which changes you want to publish together. This is an important and powerful tool, as there may be a set of rules that you are working on but have not finished or wish to embargo till a later time, or an extension that you wish to test in development, while publishing other changes into production.
 

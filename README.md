@@ -4,10 +4,6 @@ Launch is the next generation of website tag and mobile SDK management capabilit
 
 Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to both web and mobile Launch customers in an app-store like experience so they can quickly install, configure, and deploy their integrations.
 
-<!--```text
-Launch is offered to Adobe Experience Cloud customers as an included, value-add feature. Launch is an entirely new product with a new code base, designed to replace the previous Dynamic Tag Management \(DTM\) service. However, DTM will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
-``` -->
-
 ## Key benefits
 
 * Faster time to value
@@ -64,9 +60,7 @@ Automate implementations of individual technologies, or a group of technologies.
 
 ### Light, Modular Container tag
 
-```text
-The Launch container tag is 60% lighter than DTM and 40% lighter than Google Tag Manager. The content of your container is minified, including your custom code. Everything is modular. If you don't need an item, it is not included in your library. The result is an implementation that is fast and compact. See [Minification](publishing/builds.md).
-```
+The Launch container tag is 60 percent lighter than DTM and 40 percent lighter than Google Tag Management. The content of your container is minified, including your custom code. Everthing is modular. If you do not need an item, it is not included in your library. The result is an implentation that is fast and compact. For more information, see Minification.
 
 ## Other highlights
 
@@ -82,9 +76,8 @@ Launch provides several improvements over similar systems, including:
 Launch requires the following:
 
 * You must be an Adobe Experience Cloud customer.
-* You must deploy the Launch or DTM embed code on your web pages.
-* You must integrate Version 5 of the Adobe Experience Cloud Mobile SDK into your application.
-
+* For web, you must deploy the Launch or DTM embed code on your web pages.
+* For mobile, you must integrate Version 5 of the Adobe Experience Cloud Mobile SDK into your application.
 
 ## Adobe Launch FAQ
 

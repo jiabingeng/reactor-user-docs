@@ -1,16 +1,14 @@
 # Environments
 
-An _environment_ is a destination for deployment. An environment has a 1:1 relationship with an embed code.
-
-Similar to the way a library is a set of instructions for how you want your website to behave, an environment is a set of instructions for:
+Similar to how a library is a set of instructions for how you want your website to behave, an environment is a set of instructions for:
 
 * Where you want your build to be deployed
 * The file format for the build
 * The embed code for browsers to retrieve the build
 
-Once a library has been assigned to an environment, any builds that are created for that library are completed according to the configuration specified by that environment.
+After a library has been assigned to an environment, builds that are created for that library are completed according to the configuration specified by that environment.
 
-The publishing workflow encompasses multiple environments. At a minimum, you will have:
+The publishing workflow encompasses multiple environments, and at a minimum, you will have:
 
 * One Development environment
 * One Staging environment
@@ -20,38 +18,34 @@ Tip: You can create multiple development environments if it is useful for you. T
 
 ## Create an environment
 
-1. Open the Environments tab.
-2. Click Create New Environment.
+1. Open the **Environments** tab.
+2. Click **Create New Environment**.
 3. Select the type of environment you want to create.
-   * Development
+   * **Development**
 
      The environment where you create and edit, events, configurations, and so on.
 
-   * Staging
+   * **Staging**
 
      The environment where you test and approve your changes.
 
-   * Production
+   * **Production**
 
      The environment where your embed codes are placed in the pages or applications that are available to the public.
 4. Select your adapter.
 5. \(Optional\) Select the archive format if you want your build delivered as a .zip package.
-6. Click Create.
+6. Click **Create**.
 
    The embed code for your environment is displayed.
 
-7. Click Save.
+7. Click **Save**.
 8. Repeat for each environment in your development, approval, and publishing change.
 
 After the environments are created, you are ready to publish.
 
 ## Embed code
 
-The embed code is a `<script>` tag that you put on the pages of your site to load and execute the code you build in Launch.
-
-You can choose to have this tag be synchronous or [asynchronous](../client-side-information/asynchronous-deployment.md).
-
-The embed code is generated for you based on the environment configuration, so the only required action for you is to copy and paste them into your site on the pages where you want Launch to run.
+The embed code is a `<script>` tag that you put on the pages of your site to load and execute the code you build in Launch. You can choose to have this tag be synchronous or [asynchronous](../client-side-information/asynchronous-deployment.md). The embed code is generated for you based on the environment configuration, so the only required action for you is to copy and paste them into your site on the pages where you want Launch to run.
 
 Embed codes are generated and updated when you save the environment.
 
