@@ -70,7 +70,7 @@ After the library is created, use the drop down menu for that library to select 
 3. Open the Publishing tab.
 4. Select the [library](libraries.md) you want to change, then click Edit.
 5. Use the rules, data elements, and extensions buttons to select the items you want to add to the library.
-6. Save.
+6. Click **Save**.
 
 Changes to the library are shown in the Library Contents change log.
 
@@ -85,11 +85,12 @@ To remove something from a library, you must deactivate it and then publish the 
 3. Open the Publishing tab.
 4. Select the library you want to change.
 5. Use the rules, data elements, and extensions buttons to select the disabled items you want to remove from the library.
-6. Save.
+6. Click **Save**.
 
 ## Manage library changes
 
-1. Click on a library and select Edit to view library changes. All changes are shown in the Library Contents list.
+1. Click on a library and select **Edit** to view library changes.   
+   All changes are shown in the Library Contents list.
 
    ![](../.gitbook/assets/library-contents.jpg)
 
@@ -98,8 +99,8 @@ To remove something from a library, you must deactivate it and then publish the 
    ![](../.gitbook/assets/library-contents-revision.jpg)
 
 3. Select whether to show all items or changed items.
-4. Click the revision, then click Select Revision.
-5. Click either Add a Change or Add All Changed Resources.
+4. Click the revision, then click **Select Revision**.
+5. Click **Add a Change** or **Add All Changed Resources**.
 
 ## Active Library
 

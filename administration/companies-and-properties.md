@@ -130,7 +130,7 @@ Before beginning, review the [Best practices for planning properties](companies-
 
    **Anchor Delay \(Milliseconds\):** Specifies how long Launch waits for tags to fire on clicked links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. \(That is, user won't always wait the full length of the delay.\)
 
-4. Click Save.
+4. Click **Save**.
 
    The extension is automatically installed into the new property.
 
@@ -138,11 +138,11 @@ Before beginning, review the [Best practices for planning properties](companies-
 
 Create a Mobile property in Launch.
 
-Note: Only a user with sufficient rights can create a property. See [User Management](https://github.com/jiabingeng/mobile-launch/tree/99e9070fe9a3f19319363a0299dd4c8ead31fb10/administration/users.md).
+Tip: Only a user with sufficient rights can create a property. For more information, see [User Management](https://github.com/jiabingeng/mobile-launch/tree/99e9070fe9a3f19319363a0299dd4c8ead31fb10/administration/users.md).
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
-1. Navigate to your company page, then click Add New Property.
+1. Navigate to your company page, then click **Add New Property**.
 
    ![](../.gitbook/assets/mobile-property.png)
 
@@ -154,7 +154,7 @@ Before beginning, review the [Best practices for planning properties](companies-
 
    **Use HTTPS:** Check this box on or off depending on how you would like the SDK to transfer data from the application.
 
-3. Click Save.
+3. Click **Save**.
 
 ## Delete a property
 
@@ -166,5 +166,5 @@ Note: Property removal cannot be reversed. The requestor must be an admin-level 
 
    You can select multiple properties to delete.
 
-2. Click Delete, then confirm the removal of the property.
+2. Click **Delete** and confirm the removal of the property.
 
