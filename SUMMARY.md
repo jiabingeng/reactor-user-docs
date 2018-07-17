@@ -17,6 +17,7 @@
   * [Launch Object Reference](client-side-information/launch-object-reference.md)
   * [Asynchronous Deployment](client-side-information/asynchronous-deployment.md)
   * [Deploy JavaScript tags to opt in to Launch](client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
+* [Client-Side SDK Information](client-side-sdk-information.md)
 * [Administration](administration/README.md)
   * [User Permissions](administration/user-permissions.md)
   * [Companies and Properties](administration/companies-and-properties.md)
