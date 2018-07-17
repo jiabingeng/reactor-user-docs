@@ -31,17 +31,17 @@ Modify any rules that use components provided by the extension. Any data element
 ## Delete a resource published in Prod
 
 1. Disable the resource.
-2. Publish that change through to Prod.
-3. Delete.
+2. Publish that change through to **Prod**.
+3. Click **Delete**.
 
 ## Delete a resource from a library in Dev
 
 1. Remove the resource from the library.
-2. Delete.
+2. Click **Delete**.
 
 ## Delete a resource from a library in Stage
 
-1. Reject the library to move it back to Dev.
+1. Reject the library to move it back to **Dev**.
 2. Remove the resource from the library.
-3. Delete.
+3. Click **Delete**.
 
