@@ -6,25 +6,31 @@ Launch empowers anyone to build and maintain their own integrations with Launch,
 
 ## Key benefits
 
+Here are the key benefits to using Launch:
+
 * Faster time to value
 * Trustworthy data through centralized collection, organization, and delivery using data elements
 * Compelling experiences through the integration of data and marketing technology using rule builder
 
 ## Key features
 
+Here are some of the key features in Launch:
+
 ### Extensions
 
-An extension is a package of code \(JavaScript, HTML, and CSS\) that extends the Launch UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
+An extension is a package of code \(JavaScript, HTML, and CSS\) that extends the Launch UI and client functionality. You can build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
 
-Mobile extensions are comprised of both Launch UI configuration options and native SDK components that work together with the core Adobe Mobile SDK to deliver functionality to mobile apps.
+Mobile extensions are comprised of the Launch UI configuration options and native SDK components that work with the core Adobe Mobile SDK to deliver functionality to mobile apps.
 
 ### Extension Catalog
 
-Browse, configure, and deploy marketing/advertising tools built and maintained by independent software vendors.
+You can browse, configure, and deploy marketing/advertising tools built and maintained by independent software vendors.
 
 ### Rule Builder
 
-Create robust rules that combine multiple events, sequenced in the way that you determine using if/then logic with conditions and exceptions. Extensions provide options for:
+You can create robust rules that combine multiple events, sequenced in the way that you determine using if/then logic with conditions and exceptions. 
+
+Extensions provide options for:
 
 * Events
 * Conditions
@@ -100,7 +106,7 @@ No. Launch is an entirely new product with a new code base. The system has been 
 
 Yes, legacy DTM \(the existing production version\) will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
 
-Many customers see Launch implementations as an opportunity to start from scratch and cleanup many issues they have with current implementations. If this does not describe you, you can copy an existing DTM property into Launch and save yourself a bunch of effort. [See the Upgrade FAQ](upgrade-from-dtm-to-launch/upgrade-faq.md) for more inormation.
+Many customers see Launch implementations as an opportunity to start from scratch and cleanup many issues they have with current implementations. If this does not describe you, you can copy an existing DTM property into Launch and save yourself a bunch of effort. For more information, see [Upgrade FAQ](upgrade-from-dtm-to-launch/upgrade-faq.md).
 
 #### How much does Launch cost?
 
