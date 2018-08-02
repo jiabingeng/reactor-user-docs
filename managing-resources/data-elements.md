@@ -1,20 +1,26 @@
+---
+description: Data elements are the building blocks for your data dictionary (or data map).
+---
+
 # Data Elements
 
-Data elements are the building blocks for your data dictionary \(or data map\). Use data elements to collect, organize, and deliver data across marketing and ad technology.
+You can use data elements to collect, organize, and deliver data across marketing and ad technology.
 
 A data element is a variable, and the value for this variable can be mapped to query strings, URLs, cookie values, JavaScript variables, and so on. You can reference this value by its variable name in Launch. This collection of data elements becomes the dictionary of defined data that you can use to build your rules \(events, conditions, and actions\). This data dictionary is shared across all of Launch for use with any extension that you added to your property.
 
 **Important**: Changes do not take effect until they are [published](../publishing/).
 
-Use data elements as widely as possible throughout rule creation to consolidate the definition of dynamic data and to improve the efficiency of your tagging process. You define data rules once and then use them in multiple places.
+Use data elements as widely as possible during rule creation to consolidate the definition of dynamic data and to improve the efficiency of your tagging process. You define data rules once and use these rules in multiple places.
 
 The concept of reusable data elements is powerful and you should use them as best practice. For example, if there is a particular way that you reference page names or product IDs, grab information from query string parameters from an affiliate marketing link or from AdWords, and so on, you can create a data dictionary \(data elements\) by getting information from its source and using this data in various Launch rules.
 
-For example, you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag in the website. In Launch, you can create a data element as a point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If in the future you decide to change the way that you reference page name \(for example, you were referencing `document.title`, but you now want to reference a particular data layer\), you do not need to edit many different rules to change that reference. You only need to change the reference once in the data element and all rules that reference that data element are automatically updated.
+For example, you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag in the website. In Launch, you can create a data element as a point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If in the future you decide to change the way that you reference page name \(for example, you were referencing `document.title`, but you now want to reference a particular data layer\), you do not need to edit many different rules to change that reference. You only need to change the reference once in the data element, and all of the rules that reference that data element are automatically updated.
 
 **Tip**: If a data element is not referenced in a rule, unless specifically called in custom script, the element is not loaded on any page.
 
-Data elements are populated with data when they are used in rules, or when they are manually called in a script. At a high level, you can complete the following tasks:
+Data elements are populated with data when they are used in rules, or when they are manually called in a script. 
+
+At a high level, you can complete the following tasks:
 
 1. [Create a data element](data-elements.md#create-a-data-element).
 2. Use the data element in a [rule](rules.md) or a custom script.
@@ -35,15 +41,15 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 
 ## Create a data element
 
-Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for any object that is contained on your site.
+Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for an object on your site.
 
-1. On the Property page, on the **Data Elements** tab, click **Create New Data Element**.
+1. On the Property page, click the **Data Elements** tab and then click **Create New Data Element**.
 2. Enter a name for the data element.
 3. Select an extension and type.
 
    The available data element types are determined by the extension. For information about the types available with the Launch Core extension, see [Types of data elements](data-elements.md#types-of-data-elements).
 
-4. Provide any requested information about the chosen type in the fields provided.
+4. Provide the requested information about the chosen type in the fields.
 5. \(Optional\) Enter a default value.
 
    If you do not provide a value, no value is sent. You can enter **none** or **n/a,** so that you can determine what is sent when there is no value. Different solutions deal with an empty variable differently. This creates consistency even if a value does not exist.
@@ -76,7 +82,7 @@ The following sections describe the types of data elements that are available in
 
 Any available JavaScript object or variable can be referenced using the path field.
 
-When you have JavaScript variables, or object properties in your markup, and you want to collect those values in Launch to use with any of your extensions or rules, one way to capture those values is to use Data Elements. This way, you can refer to the Data Element throughout your Rules, and if the source of the data ever changes, you need to change your reference to the source \(the Data Element\) in only one place in Launch.
+When you have JavaScript variables, or object properties in your markup, you can use Data Elements to collect those values in Launch to use with any of your extensions or rules. This way, you can refer to the Data Element throughout your Rules, and if the source of the data changes, you need to change your reference to the source \(the Data Element\) in only one place in Launch.
 
 Here is an example of a markup contains a JavaScript variable called `Page_Name`:
 
@@ -89,7 +95,7 @@ Here is an example of a markup contains a JavaScript variable called `Page_Name`
 
 When you create the Data Element in Launch, provide the path to that variable.
 
-If you use a data collector object as party of your data layer, use the dot notation in the Path to reference the object and property you want to capture into the Data Element, for example, `_myData.pageName`, or `digitalData.pageName`, and so on.
+If you use a data collector object as party of your data layer, use the dot notation in the Path to reference the object and property that you want to capture into the Data Element, for example, `_myData.pageName`, or `digitalData.pageName`, and so on.
 
 #### Example:
 
@@ -119,9 +125,9 @@ Any available domain cookie can be referenced in the cookie name field.
 
 ### URL querystring parameter
 
-Specify a single URL parameter in the URL Parameter field.
+Specify one URL parameter in the **URL Parameter** field.
 
-Only the name section is necessary and any special designators like "?" or "=" should be omitted
+Only the name section is necessary, and special designators such as  `?` or `=` should be omitted
 
 #### Example:
 
@@ -131,7 +137,7 @@ Only the name section is necessary and any special designators like "?" or "=" s
 
 Custom JavaScript can be entered in the Launch UI by clicking **Open Editor** and inserting code in the editor window.
 
-A return statement is necessary in the editor window to indicate what value should be set as the data element value. If a return statement is not included, the default value or an empty string will be returned as the data element value.
+A return statement is necessary to indicate what value should be set as the data element value. If a return statement is not included, the default value or an empty string will be returned as the data element value.
 
 #### Example:
 

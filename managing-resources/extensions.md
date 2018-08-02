@@ -62,6 +62,7 @@ Launch is highly extendible, so you can easily add core functionality.
 
    These defaults are the basis for the custom rules that you will build to create your extension.
 
+  
    **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This step immediately saves your change to your library and executes a build, and you can monitor the build status. You can also create a new library from the **Active Library** drop down.
