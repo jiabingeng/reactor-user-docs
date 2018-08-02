@@ -55,19 +55,19 @@ Launch is highly extendible, so you can easily add core functionality.
 
    ![](../.gitbook/assets/extensions.png)
 
-* Select an extension from the extensions catalog.
-* Mouse over an extension in your list to configure or disable it.
-* Add other extensions from the catalog if they are not currently in your list.
+3. Select an extension from the extensions catalog.
+4. Mouse over an extension in your list to configure or disable it.
+5. Add other extensions from the catalog if they are not currently in your list.
 
-  The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following features:
+   The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following features:
 
-* Default event
-* Default conditions and exceptions
-* Default JavaScript
+6. Default event
+7. Default conditions and exceptions
+8. Default JavaScript
 
-  These defaults are the basis for the custom rules that you will build to create your extension.
+   These defaults are the basis for the custom rules that you will build to create your extension.
 
-  **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
+   **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This step immediately saves your change to your library and executes a build, and you can monitor the build status. You can also create a new library from the **Active Library** drop down.
 

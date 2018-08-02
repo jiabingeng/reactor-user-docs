@@ -198,7 +198,7 @@ _satellite.notify('Hello world!');
 
 Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user \(by calling `_satellite.setDebug(true)` or using an appropriate browser extension\).
 
-An optional logging level can be passed which will affect styling and filtering of the message being logged. 
+An optional logging level can be passed which will affect styling and filtering of the message being logged.
 
 Here are the supported levels:
 
@@ -354,7 +354,7 @@ Tip: A monitor doesn't have to specify all three methods \(`ruleTriggered`, `rul
 
 #### Testing the Monitor
 
-The example above specifies all three methods in the monitor. When these methods are called, the monitor logs out relevant information. 
+The example above specifies all three methods in the monitor. When these methods are called, the monitor logs out relevant information.
 
 To test this, set up the folloiwng rules in the Launch library:
 

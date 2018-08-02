@@ -14,7 +14,7 @@ The rights are not inclusive. For a person to complete the workflow, this person
 
 ## Library state
 
-A library can be in one of the following states: 
+A library can be in one of the following states:
 
 * [Development](approval-workflow.md#development)
 * [Submitted](approval-workflow.md#submitted)

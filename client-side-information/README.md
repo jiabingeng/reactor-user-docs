@@ -10,5 +10,3 @@ This section contains information that is useful when managing client-side opera
 
   Performance and non-blocking deployment of the JavaScript libraries that are required by our products is increasingly important to Adobe Experience Cloud users. Tools such as [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) recommend that users change they way they deploy the Adobe libraries on their site. This article explains how to use the Adobe JavaScript libraries in an asynchronous fashion.
 
-
-

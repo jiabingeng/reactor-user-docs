@@ -170,8 +170,8 @@ To assign the rights you want to be part of your group definition, open the **Ri
 
 ![](../.gitbook/assets/profile-rights-select.png)
 
-Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by clicking **+ Add All**, ****or you can assign individual rights by clicking **+** next to each right.   
-  
+Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by clicking **+ Add All**, **\*\*or you can assign individual rights by clicking** +\*\* next to each right.
+
 For more information on what permissions are associated with each right, see [Rights details](user-permissions.md#rights-details). Click **Save** when finished. If **Save** is not available, you did not make any changes and the profile won't give you any rights.
 
 ![](../.gitbook/assets/profile-rights.png)

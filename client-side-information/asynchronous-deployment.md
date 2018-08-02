@@ -46,7 +46,7 @@ Another consideration is that Launch has always provided a Page Bottom event typ
 
 ## Loading the Launch embed code asynchronously
 
-Launch provides a toggle to enable asynchronous loading when creating an embed code when you configure an [environment](../administration/environments.md). 
+Launch provides a toggle to enable asynchronous loading when creating an embed code when you configure an [environment](../administration/environments.md).
 
 You can also configure asynchronous loading:
 

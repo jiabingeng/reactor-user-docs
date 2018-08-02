@@ -28,7 +28,7 @@ You can browse, configure, and deploy marketing/advertising tools built and main
 
 ### Rule Builder
 
-You can create robust rules that combine multiple events, sequenced in the way that you determine using if/then logic with conditions and exceptions. 
+You can create robust rules that combine multiple events, sequenced in the way that you determine using if/then logic with conditions and exceptions.
 
 Extensions provide options for:
 
@@ -37,23 +37,23 @@ Extensions provide options for:
 * Exceptions
 * Actions
 
-The rule builder includes real-time error checking and syntax highlighting for your custom code.
-
-When the criteria outlined in your rules are met and conditions are satisfied, the actions you define are executed in order.
+The rule builder includes real-time error checking and syntax highlighting for your custom code. When the criteria outlined in your rules are met and conditions are satisfied, the actions you define are executed in order.
 
 ### Data Elements
 
-Collect, organize, and deliver data across marketing and advertising technologies.
+You can collect, organize, and deliver data across marketing and advertising technologies.
 
 ### Enterprise Publishing
 
 The publishing process enables teams to publish code to pages or SDK configuration options to mobile apps. Different users can create an implementation, approve it, and publish.
 
-* Changes to your code or configuration are encapsulated within libraries you define ​
-* You specify where and when you want your code deployed ​
-* Multiple libraries can be built in parallel by different teams ​
-* Unlimited development environments ​
-* Deliberate, permissioned process for merging libraries together ​
+The publishing process provides the following features:
+
+* Changes to your code or configuration are encapsulated in libraries you define.​
+* You specify where and when you want your code deployed. ​
+* Multiple libraries can be built in parallel by different teams. ​
+* Unlimited development environments. ​
+* Deliberate, permissioned process for merging libraries. ​
 
 ### Open APIs
 

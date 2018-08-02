@@ -27,7 +27,7 @@ Remember the following information about libraries:
 3. Name the library.
 4. Assign the library to a Dev environment.
 5. Add a change to the library. 
-6. To add an item, click **Add a Change** and choose the items you want to add.   
+6. To add an item, click **Add a Change** and choose the items you want to add.  
    Any item that has been edited or deleted is available to add to the selected library.
 
    ![](../.gitbook/assets/library-add-change.jpg)
@@ -89,7 +89,7 @@ To remove something from a library, you must deactivate it and then publish the 
 
 ## Manage library changes
 
-1. Click on a library and select **Edit** to view library changes.   
+1. Click on a library and select **Edit** to view library changes.  
    All changes are shown in the Library Contents list.
 
    ![](../.gitbook/assets/library-contents.jpg)
