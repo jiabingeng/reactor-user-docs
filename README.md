@@ -72,10 +72,10 @@ The Launch container tag is 60 percent lighter than DTM and 40 percent lighter t
 
 Launch provides several improvements over similar systems, including:
 
-* No use of `document.write ()` where Chrome doesn't allow it ​
-* The Page Top and Page Bottom rules are bundled into the main library to minimize unnecessary HTTP calls ​ ​
-* Custom action scripts within a rule can be loaded in parallel, but are executed sequentially ​
-* If you avoid Page Top and Page Bottom rules, the code is mostly asynchronous, with a path to getting fully async ​
+* No use of `document.write ()`, where Chrome does not allow it.​
+* The Page Top and Page Bottom rules are bundled into the main library to minimize unnecessary HTTP calls. ​ ​
+* Custom action scripts within a rule can be loaded in parallel, but are executed sequentially. ​
+* If you avoid Page Top and Page Bottom rules, the code is mostly asynchronous, with a path to getting fully async. ​
 
 ## Requirements
 
@@ -87,7 +87,7 @@ Launch requires the following:
 
 ## Adobe Launch FAQ
 
-Frequently asked questions about the new tag management capabilities, announced in March 2017.
+Here are some frequently asked questions about the new tag management capabilities that was announced in March 2017.
 
 #### What is Launch?
 
