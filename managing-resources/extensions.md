@@ -1,8 +1,12 @@
+---
+description: >-
+  An extension is a packaged set of code that extends the Launch interface and
+  the library or mobile SDK functionality.
+---
+
 # Extensions
 
-An extension is a packaged set of code that extends the Launch interface and the library or mobile SDK functionality. Launch is the platform, and extensions are like mini-apps that run on the platform.
-
-Adding an extension may add new data elements and new options for creating rules.
+Launch is the platform, and extensions are like mini-apps that run on the platform. Adding an extension may add new data elements and new options for creating rules.
 
 **Tip**: Extensions are similar to _tools_ in the previous Dynamic Tag Management.
 
@@ -29,19 +33,11 @@ Use the extension catalog to browse, configure, and deploy marketing and adverti
 
 The Extensions page provides the following views:
 
-* Installed
+* **Installed**, which shows all of your installed extensions.
+* **Catalog**, which shows all available extensions.
+* **Updates**, which shows updates to installed extensions.
 
-  Shows all of your installed extensions.
-
-* Catalog
-* Shows all available extensions
-* Updates
-
-  Shows updates to installed extensions.
-
-Click **Extensions** to see all your installed extensions. You can also use the catalog to see a list of all available extensions and the extensions that that you can update.
-
-For details about the Adobe-owned extensions, see [Extensions Reference](../extension-reference/) .
+Click **Extensions** to see all your installed extensions. You can also use the catalog to see a list of all available extensions and the extensions that that you can update. For more information about the Adobe-owned extensions, see [Extensions Reference](../extension-reference/) .
 
 ## Add an extension
 
@@ -49,15 +45,14 @@ Launch is highly extendible, so you can easily add core functionality.
 
 **Tip**: A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
-1. From a property's overview page, open the **Extensions** tab.
-2. Select an extension, for example, **Mobile Core**.  
-   Remember the following information:
+1. From a property's overview page, click the **Extensions** tab.
+2. Select an extension, for example, **Mobile Core**.
 
    ![](../.gitbook/assets/extensions.png)
 
 3. Select an extension from the extensions catalog.
 4. Mouse over an extension in your list to configure or disable it.
-5. Add other extensions from the catalog if they are not currently in your list.
+5. Add other extensions from the catalog as necessary.
 
    The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following features:
 
