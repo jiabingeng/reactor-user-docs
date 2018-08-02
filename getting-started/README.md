@@ -50,7 +50,7 @@ What makes Launch truly unique among other tag and mobile SDK management systems
 * Session and local storage
 * Just about everything else
 
-Once defined in a data element, you can use the element anywhere throughout Launch for any extension. \(See [Data Elements](../managing-resources/data-elements.md).\)
+Once defined in a data element, you can use the element anywhere throughout Launch for any extension. For more information, see [Data Elements](../managing-resources/data-elements.md).
 
 **Rules** are at the logical core of your implementation and control the what, when, where, and how. Define an event, set conditions and exceptions, then define the actions and order. Finally, publish your changes to see the results. For more information, see [Rules](../managing-resources/rules.md).
 
@@ -76,48 +76,50 @@ Nothing in Launch is published automatically. Each set of changes you make is en
 
 An adapter is a connection between Launch and your hosting location. Launch currently supports an Akamai adapter and an SFTP adapter. Whenever you produce a build, Launch connects to the server defined by your adapter.
 
-If you want to self-host, you can have Launch push directly to your servers through SFTP or you can push it to Akamai and download it \(using your environment's Archive option\).
-
-For more information, see [Adapters](../administration/adapters.md).
+If you want to self-host, you can have Launch push directly to your servers through SFTP or you can push it to Akamai and download it \(using your environment's Archive option\). For more information, see [Adapters](../administration/adapters.md).
 
 ### Environments
 
-Each library is created inside an environment. An environment defines how you want your build to look when it is published. You can specify:
+Each library is created inside an environment. An environment defines how you want your build to look when it is published.   
+  
+You can specify the following types of environments:
 
-* **Adapter:** Each environment needs an adapter which determines where Launch will push any builds created in this environment
-* **Archive:** The default is to deploy your build as a minified .js file \(or if you're using custom code, multiple files which reference each other\). You can have wrap all these together into a zip file and encrypt it.
+* **Adapter** Each environment needs an adapter which determines where Launch will push any builds created in this environment
+* **Archive** The default is to deploy your build as a minified .js file \(or if you're using custom code, multiple files which reference each other\). You can have wrap all these together into a zip file and encrypt it.
 
-Once you have saved your environment, it generates the embed code which you can copy and paste into your website. Note that the embed code will not work until you have actually created a library and produced a build. For more information, see [Environments](../administration/environments.md).
+After you save your environment, it generates the embed code that you can copy and paste into your website. 
+
+**Important**: The embed code will not work until you have created a library and produced a build. For more information, see [Environments](../administration/environments.md).
 
 ### Publish a build to Dev
 
-Now that you understand the basic components, the publishing process should make more sense. You need to:
+Now that you understand the basic components, the publishing process should make more sense.
+
+To publish, you need to complete the following tasks:
 
 1. Create an adapter.
-2. Create a dev environment using the adapter you created.
+2. Create a dev environment by using the adapter you created.
 3. Deploy the embed code from your dev environment to your dev test site.
 4. Create a library and assign it to the dev environment you created.
 5. Build your library.
 
 ## 7. Promote to production
 
-Once you've tested your build in your dev environment, the promotion process is pretty straightforward. Before you try it out, make sure to create your stage and production environments and put the embed codes in the necessary places. \(You can reuse existing adapters.\)
+After you test your build in your dev environment, the promotion process is simple. Before you try it out, ensure that you create your stage and production environments and put the embed codes in the necessary places. 
 
-Promoting a library all the way through to production will typically require coordination among different people with the appropriate rights.
+**Tip**: You can reuse existing adapters.
 
-1. A Developer \(someone with the Develop right\) submits the library, which moves the library to the Submitted state.
-2. An Approver \(someone with the Approve right\) can build the library to the stage environment and can approve it after testing. This moves the library to the approved state. Only one library can be submitted and approved at a time.
-3. A Publisher \(someone with the Publish right\) can build the library to the production environment.
+Promoting a library all the way through to production will typically require coordination among different people with the appropriate rights:
 
-You can assign all these rights to a single person.
+1. A **Developer** \(someone with the Develop right\) submits the library, which moves the library to the Submitted state.
+2. An **Approver** \(someone with the Approve right\) can build the library to the stage environment and can approve it after testing. This moves the library to the approved state. Only one library can be submitted and approved at a time.
+3. A **Publisher** \(someone with the Publish right\) can build the library to the production environment.
 
-For more information about the different states and options available during the publishing process, see [Approval Workflow](../publishing/approval-workflow.md).
+You can assign all these rights to one person. For more information about the different states and options that are available during the publishing process, see [Approval Workflow](../publishing/approval-workflow.md).
 
 ## Additional resources
 
-To learn more about Launch, refer to these resources:
-
-[https://forums.adobe.com/community/experience-cloud/platform/launchAsk](https://forums.adobe.com/community/experience-cloud/platform/launchAsk) and answer questions, submit ideas, vote on the ideas of others. Log in with your Adobe ID.
+To learn more about Launch, see the following resources:
 
 * [**Launch Community**](https://forums.adobe.com/community/experience-cloud/platform/launch)**:** Ask and answer questions, submit ideas, vote on the ideas of others. Log in with your Adobe ID.
 * [**Launch Webinars**](https://adobe.com/go/launchme)**:** Sign up for upcoming webinars and watch recordings of past webinars.
