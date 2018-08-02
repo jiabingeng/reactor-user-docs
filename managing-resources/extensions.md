@@ -56,9 +56,9 @@ Launch is highly extendible, so you can easily add core functionality.
 
    The **Mobile Core** extension is the starting point for your new extension, and the default extension provides the following features:
 
-6. Default event
-7. Default conditions and exceptions
-8. Default JavaScript
+   * Default event
+   * Default conditions and exceptions
+   * Default JavaScript
 
    These defaults are the basis for the custom rules that you will build to create your extension.
 
