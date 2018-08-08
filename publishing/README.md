@@ -24,7 +24,7 @@ To take advantage of the publishing workflow, ensure that you understand the fol
 
 * [Embed Code](../administration/environments.md#embed-code)
 
-  The embed code is the set of script tags that you place within the HTML on your site. These tags tell each browser where to retrieve the build. The embed code is attached to an environment and can change when you make changes to your environment configuration.
+  The embed code is the set of script tags that you place in the HTML on your site. These tags tell each browser where to retrieve the build. The embed code is attached to an environment and can change when you make changes to your environment configuration.
 
 Here is an overview of the publishing process:
 

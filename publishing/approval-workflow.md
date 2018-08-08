@@ -1,6 +1,6 @@
 # Approval Workflow
 
-Tip: The available actions depend on the state of the library and the level of permission you have.
+**Tip**: The available actions depend on the state of the library and your permission levels.
 
 ## Permissions
 
@@ -73,7 +73,7 @@ Available actions for a library in Approved state are:
 
 * **Open**
 
-  View the contents of the library. Changes are not allowed. If changes are needed, the library should be rejected so changes can be made in Development.
+  View the contents of the library, but canges are not allowed. If changes are required, the library should be rejected so changes can be made in Development.
 
 * **Build and Publish to Production**
 

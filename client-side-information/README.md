@@ -4,9 +4,9 @@ This section contains information that is useful when managing client-side opera
 
 * [**Launch Object Reference**](launch-object-reference.md)
 
-  This reference documents the \_satellite object and the things you can do with it.
+  This reference documents the `_satellite` object and the things you can do with it.
 
 * [**Asynchronous Deployment of Experience Cloud JavaScript**](asynchronous-deployment.md)
 
-  Performance and non-blocking deployment of the JavaScript libraries that are required by our products is increasingly important to Adobe Experience Cloud users. Tools such as [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) recommend that users change they way they deploy the Adobe libraries on their site. This article explains how to use the Adobe JavaScript libraries in an asynchronous fashion.
+  Performance and non-blocking deployment of the JavaScript libraries that are required by Adobe solutions and is increasingly important to Adobe Experience Cloud users. Tools such as [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) recommend that users change they way they deploy the Adobe libraries on their site. This article explains how to use the Adobe JavaScript libraries in an asynchronous fashion.
 

@@ -20,15 +20,15 @@ Remember the following information about libraries:
 
    The Publishing page lists the Dev libraries and provides the means to submit them for approval, move them to staging, or publish them to production.
 
-2. Click **Add New Library**.
+2. In **Development**, click **+** to add a new library.
 
    ![](../.gitbook/assets/library-create.jpg)
 
 3. Name the library.
 4. Assign the library to a Dev environment.
 5. Add a change to the library. 
-6. To add an item, click **Add a Change** and choose the items you want to add.  
-   Any item that has been edited or deleted is available to add to the selected library.
+6. To add an item, click **Add a Resource** and choose the items you want to add.  
+   Items that have been edited or deleted are available to add to the selected library.
 
    ![](../.gitbook/assets/library-add-change.jpg)
 
@@ -39,11 +39,11 @@ Remember the following information about libraries:
    * Extension configurations
 
 7. To add any resources that have changed, click **Add All Changed Resources**.
-8. Click **Save** or **Save and Build for Development**.
+8. Click **Save** or **Save & Build for Development**.
 
    Deploying compiles a build and deploys it to the assigned environment.
 
-After the library is created, use the drop down menu for that library to select one of the following options:
+After the library is created, use the drop-down menu for that library to select one of the following options:
 
 * **Edit**
 
@@ -82,7 +82,7 @@ To remove something from a library, you must deactivate it and then publish the 
 
 1. Disable the extensions you want to remove, along with any data elements and rules that depend on those extensions.
 2. Disable the data elements and rules you want to remove.
-3. Open the Publishing tab.
+3. Open the **Publishing** tab.
 4. Select the library you want to change.
 5. Use the rules, data elements, and extensions buttons to select the disabled items you want to remove from the library.
 6. Click **Save**.
@@ -99,7 +99,7 @@ To remove something from a library, you must deactivate it and then publish the 
    ![](../.gitbook/assets/library-contents-revision.jpg)
 
 3. Select whether to show all items or changed items.
-4. Click the revision, then click **Select Revision**.
+4. Click the revision and click **Select Revision**.
 5. Click **Add a Change** or **Add All Changed Resources**.
 
 ## Active Library

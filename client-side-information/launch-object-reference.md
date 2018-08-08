@@ -18,7 +18,7 @@ _satellite.track(identifier: string [, detail: *] )
 _satellite.track('contact_submit', { name: 'John Doe' });
 ```
 
-Fires all rules using the Direct Call event type from the Core extension that has been configured with the given identifier. The above example triggers all rules using a Direct Call event type where the configured identifier is `contact_submit`. An optional object containing related information is also passed. The detail object can be accessed by entering `%event.detail%` within a text field in a condition or action or `event.detail` inside the code editor in a Custom Code condition or action.
+Fires all rules using the Direct Call event type from the Core extension that has been configured with the specified identifier. The example above triggers all rules using a Direct Call event type where the configured identifier is `contact_submit`. An optional object that contains related information is also passed. The detail object can be accessed by entering `%event.detail%` n a text field in a condition or action or `event.detail` inside the code editor in a Custom Code condition or action.
 
 ### getVar
 
@@ -34,9 +34,9 @@ _satellite.getVar(name: string) => *
 var product = _satellite.getVar('product');
 ```
 
-If a data element exists with a matching name, the data element's value will be returned. If no matching data element exists, it will then check to see if a custom variable with a matching name has previously been set using `_satellite.setVar()`. If a matching custom variable is found, its value will be returned.
+If a data element exists with a matching name, the data element's value will be returned. If no matching data element exists, it will then check to see whether a custom variable with a matching name has previously been set using `_satellite.setVar()`. If a matching custom variable is found, its value will be returned.
 
-In many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
+In many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using `%product%` accesses the value of the product data element or custom variable.
 
 ### setVar
 
@@ -54,7 +54,7 @@ _satellite.setVar('product', 'Circuit Pro');
 
 Sets a custom variable with a given name and value. The value of the variable can later be accessed using `_satellite.getVar()`.
 
-You may optionally set multiple variables at once by passing an object where the keys are variable names and the values are the respective variable values.
+You might optionally set multiple variables at once by passing an object where the keys are variable names and the values are the respective variable values.
 
 ```javascript
 _satellite.setVar({ 'product': 'Circuit Pro', 'category': 'hobby' });
@@ -74,7 +74,7 @@ _satellite.getVisitorId() => Object
 var visitorIdInstance = _satellite.getVisitorId();
 ```
 
-If the Adobe Experience Cloud ID extension is installed on the property, this method returns the Visitor ID instance. See the [Experience Cloud ID Service documentation](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fmarketing.adobe.com%2Fresources%2Fhelp%2Fen_US%2Fmcvid%2F) for more information.
+If the Adobe Experience Cloud ID extension is installed on the property, this method returns the Visitor ID instance. For more information, see the [Experience Cloud ID Service documentation](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fmarketing.adobe.com%2Fresources%2Fhelp%2Fen_US%2Fmcvid%2F).
 
 ### logger
 
@@ -155,7 +155,7 @@ The [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) version used
 
 #### turbineBuildDate
 
-The ISO 8601 date when the version of [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) used inside the container was built.
+The ISO 8601 date when the version of [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) used in the container was built.
 
 #### buildDate
 
@@ -198,13 +198,13 @@ _satellite.notify('Hello world!');
 
 Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user \(by calling `_satellite.setDebug(true)` or using an appropriate browser extension\).
 
-An optional logging level can be passed which will affect styling and filtering of the message being logged.
+An optional logging level can be passed that will affect styling and filtering of the message being logged.
 
 Here are the supported levels:
 
-* 3 - Informational messages
-* 4 - Warning messages
-* 5 - Error messages
+* **3** - Informational messages
+* **4** - Warning messages
+* **5** - Error messages
 
 If you do not provide a logging level or pass any other level value, the message will be logged as a regular message.
 
@@ -334,7 +334,7 @@ On your web page running a Launch library, add a snippet of code to your HTML. T
 </html>
 ```
 
-In the first script tag, because the Launch library has not been loaded yet, the initial `_satellite` object is created and an array on `_satellite._monitors` is initialized. The script then adds a monitor object to that array. The monitor object can specify the following methods which will later be called by the Launch library:
+In the first script tag, because the Launch library has not been loaded yet, the initial `_satellite` object is created and an array on `_satellite._monitors` is initialized. The script then adds a monitor object to that array, and this object can specify the following methods that will later be called by the Launch library:
 
 #### ruleTriggered
 
