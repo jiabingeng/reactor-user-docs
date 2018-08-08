@@ -64,11 +64,11 @@ Automate implementations of individual technologies, or a group of technologies.
 * Integrate the Launch APIs with your own internal systems ​
 * You can build your own user interface, if desired ​
 
-### Light, Modular Container tag
+### Light, Modular Container Tag
 
 The Launch container tag is 60 percent lighter than DTM and 40 percent lighter than Google Tag Management. The content of your container is minified, including your custom code. Everthing is modular. If you do not need an item, it is not included in your library. The result is an implentation that is fast and compact. For more information, see Minification.
 
-## Other highlights
+## Other Highlights
 
 Launch provides several improvements over similar systems, including:
 

@@ -27,7 +27,7 @@ At a high level, you can complete the following tasks:
 
 For an introductory video about data elements, see [Data elements](../getting-started/videos.md).
 
-## Data element usage
+## Data Element Usage
 
 ### In Rules
 
@@ -39,7 +39,7 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 
 `_satellite.getVar('data element name');`
 
-## Create a data element
+## Create a Data Element
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for an object on your site.
 
@@ -72,13 +72,13 @@ Data elements are the building blocks for rules. Data elements let you create a 
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This step immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the **Active Library** drop down.
 
-## Data elements available in the Web Core extension
+## Data Elements Available in the Web Core extension
 
 Data Element types are determined by the extension, and there is no limit to the types that can be created.
 
 The following sections describe the types of data elements that are available in the Core extension. Other extensions use other types of data elements.
 
-### JavaScript variable
+### JavaScript Variable
 
 Any available JavaScript object or variable can be referenced using the path field.
 
@@ -101,7 +101,7 @@ If you use a data collector object as party of your data layer, use the dot nota
 
 `window.document.title`
 
-### DOM attribute
+### DOM Attribute
 
 Any element value can be retrieved, such as a div or H1 tag.
 
@@ -123,7 +123,7 @@ Any available domain cookie can be referenced in the cookie name field.
 
 `cookieName`
 
-### URL querystring parameter
+### URL querystring Parameter
 
 Specify one URL parameter in the **URL Parameter** field.
 
@@ -133,7 +133,7 @@ Only the name section is necessary, and special designators such as  `?` or `=` 
 
 `contentType`
 
-### Custom script
+### Custom Script
 
 Custom JavaScript can be entered in the Launch UI by clicking **Open Editor** and inserting code in the editor window.
 
@@ -150,7 +150,7 @@ if (window.location.pathname == '/') {
 }
 ```
 
-## Built-in data elements
+## Built-in Data Elements
 
 If you used any of the following data elements in the past, you must create a custom data element in Launch:
 

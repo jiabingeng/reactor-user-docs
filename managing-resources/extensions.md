@@ -27,7 +27,7 @@ By default, Adobe provides extensions that support common integrations. Extensio
 
 For a video introduction, see [Extensions](../getting-started/videos.md).
 
-## Extension catalog
+## Extension Catalog
 
 Use the extension catalog to browse, configure, and deploy marketing and advertising technology built and maintained by independent software vendors, as well as extensions for Adobe solutions.
 
@@ -37,16 +37,19 @@ The Extensions page provides the following views:
 * **Catalog**, which shows all available extensions.
 * **Updates**, which shows updates to installed extensions.
 
-Click **Extensions** to see all your installed extensions. You can also use the catalog to see a list of all available extensions and the extensions that that you can update. For more information about the Adobe-owned extensions, see [Extensions Reference](../extension-reference/) .
+Click **Extensions** to see all your installed extensions. You can also use the catalog to see a list of all available extensions and the extensions that that you can update. For more information about the Adobe-owned extensions, see [Extensions Reference](../extension-reference/).
 
-## Add an extension
+## Add an Extension
 
 Launch is highly extendible, so you can easily add core functionality.
 
 **Tip**: A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
 1. From a property's overview page, click the **Extensions** tab.
-2. Select an extension, for example, **Mobile Core**.
+2. Select an extension, for example, **Mobile Core**.  
+
+
+   1. **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
 
    ![](../.gitbook/assets/extensions.png)
 
@@ -63,11 +66,11 @@ Launch is highly extendible, so you can easily add core functionality.
    These defaults are the basis for the custom rules that you will build to create your extension.
 
   
-   **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
+   ****
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This step immediately saves your change to your library and executes a build, and you can monitor the build status. You can also create a new library from the **Active Library** drop down.
 
-## Configure an extension
+## Configure an Extension
 
 Mouse over an installed extension and click **Configure**.
 
