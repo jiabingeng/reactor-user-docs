@@ -1,14 +1,16 @@
+---
+description: 'You can delete data elements, rules, and extensions.'
+---
+
 # Delete Resources
 
-You can delete data elements, rules, and extensions.
-
-Select the resource you want to delete and click **Delete**.
+To delete a resoucrce, select the resource and click **Delete**.
 
 ## Prepare a resource for deletion
 
-Before you delete a resource, verify that it is in a state where it can be deleted.
+**Important**: Before you delete a resource, verify that it is in a state where it can be deleted.
 
-Resources exist in different states, and they depend on one another. In some cases, you must resolve conflicts before you can delete a resource. In other cases, you can delete the resource, but you have to update any other resources that are dependent on the resource that you delete.
+Resources exist in different states, and they depend on one another. In some cases, you must resolve conflicts before you can delete a resource. In other cases, although you can delete the resource, you have to update the other resources that are dependent on this resource.
 
 For example:
 
@@ -28,7 +30,7 @@ Modify any rules that use components provided by the extension. Any data element
 1. Update any rule components that reference the data element.
 2. Modify any extension configurations that reference the data element.
 
-## Delete a resource published in Prod
+## Delete a resource that was published in Prod
 
 1. Disable the resource.
 2. Publish that change through to **Prod**.

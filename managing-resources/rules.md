@@ -1,14 +1,8 @@
----
-description: >-
-  Launch is a rule-based system, and it looks for user interaction and
-  associated data.
----
-
 # Rules
 
-When the criteria that are outlined in your rules are met, the rule triggers the extension, script, or HTML that you identified. You can build rules to integrate the data and functionality of marketing and ad tech that unifies disparate products into one solution. For an introductory video, see [Rule builder](../getting-started/videos.md).
+When the criteria that you outlined in your rules are met, the rule triggers the extension, script, or HTML that you identified. You can build rules to integrate the data and functionality of marketing and ad tech that unifies disparate products into one solution. For an introductory video, see [Rule builder](../getting-started/videos.md).
 
-Events are where the majority of interactions on sites and applications take place. You can measure and react to these interactions in real-time, without the need for JavaScript.
+Events are where the majority of interactions on sites and applications take place. You can measure and react to these interactions in real-time, without using JavaScript.
 
 **Events \(If\):** The event is what you want the rule to look for. This is defined by choosing an event, the applicable conditions, and exceptions.
 
@@ -38,7 +32,7 @@ Here is some additional information:
 
 The events that are available depend on which extensions are installed. For information about the events in the Core extension, see [Core extension event types](../extension-reference/web/core-extension.md#core-extension-event-types).
 
-**Important**: For previous DTM users, DTM provided page load, event-based, and direct call event types. This is no longer true in Launch. Rather than event types, Launch extensions configure different individual events.
+**Important**: For previous DTM users, DTM provides page load, event-based, and direct call event types. In Launch, rather than event types, Launch extensions configure different individual events.
 
 Only events are required, and the conditions and exceptions are optional.
 
@@ -50,14 +44,14 @@ The action, or _then_ , part of the formula determines what happens when the eve
 
 ## Create a rule
 
-Create a rule by specifying what actions occur when a condition is met.
+You can create a rule by specifying the actions that will occur when a condition is met.
 
 1. On the **Rules** tab, click **Create New Rule**.
 
    ![](../.gitbook/assets/rule-create.png)
 
 2. Name the rule.
-3. Click the Events **Add** icon.
+3. Under **Events**, click the **Add** icon.
 4. Select your extension and one of the event types that are available for that extension and configure the properties for the event.
 
    **Tip**: The available event types are defined by the extension.
@@ -79,7 +73,7 @@ Create a rule by specifying what actions occur when a condition is met.
 
      If you want Rule A to run later, give it a number higher than 50. For more information about ordering, see [Rule ordering](rules.md#rule-ordering).
 
-6. Click the Conditions **Add** icon, choose a condition type, and configure the properties for your condition.
+6. Under Conditions, click the **Add** icon, select a condition type, and configure the properties for your condition.
 7. Click **Keep Changes**.
 
    You can add other conditions, and multiple conditions are joined with an OR. The rule's exceptions will be evaluated if any of the events are met with their conditions.
@@ -89,7 +83,7 @@ Create a rule by specifying what actions occur when a condition is met.
 
    You can add other exceptions, and multiple exceptions are joined with an OR. The rule's actions will be evaluated if any of the events are met with their conditions and exceptions.
 
-10. Click the Actions **Add** icon, select your extension and an action type, configure the properties for the action, and click **Keep Changes**.
+10. Under Actions, click the **Add** icon, select your extension, an action type, configure the properties for the action, and click **Keep Changes**.
 
     **Tip**: The available action types are defined by the extension.
 

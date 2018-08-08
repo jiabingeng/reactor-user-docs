@@ -95,7 +95,7 @@ After you save your environment, it generates the embed code that you can copy a
 
 **Important**: The embed code will not work until you have created a library and produced a build. For more information, see [Environments](../administration/environments.md).
 
-### Publish a Build to Dev
+### Publish a build to Dev
 
 Now that you understand the basic components, the publishing process should make more sense.
 
@@ -121,7 +121,7 @@ Promoting a library all the way through to production will typically require coo
 
 You can assign all these rights to one person. For more information about the different states and options that are available during the publishing process, see [Approval Workflow](../publishing/approval-workflow.md).
 
-## Additional Resources
+## Additional resources
 
 To learn more about Launch, see the following resources:
 
