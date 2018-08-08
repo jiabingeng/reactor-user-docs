@@ -48,8 +48,7 @@ Launch is highly extendible, so you can easily add core functionality.
 1. From a property's overview page, click the **Extensions** tab.
 2. Select an extension, for example, **Mobile Core**.  
 
-
-   1. **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
+   **Important**: You should also install the **Identity**, **Analytics**, and **Profile** extensions.
 
    ![](../.gitbook/assets/extensions.png)
 
