@@ -10,7 +10,7 @@ The following levels of permission are important for the approval workflow:
 * **The approve right:** Includes the ability to build for staging and approve.
 * **The publish right:** Includes the ability to publish an approved library.
 
-The rights are not inclusive. For a person to complete the workflow, this person must be granted all three rights in a property.
+The rights are not inclusive. To complete the workflow, you must be granted all three rights in a property.
 
 ## Library state
 
@@ -33,33 +33,35 @@ Available actions for a library in Development state are:
 
 * **Edit**
 
-  Use the library Edit screen to add or remove components from a library.
+  In the library Edit page, you can add or remove components from a library.
 
 * **Build for Development**
 
-  Create a build for the library. The build is compiled and deployed to the environment the library is assigned to. This step fails if the library has not been assigned to an environment.
+  Create a build for the library. The build is compiled and deployed to the environment to which the library is assigned.   
+  
+  **Important**: If the library has not been assigned to an environment, this step will fail.   
 
 * **Submit for Approval**
 
-  Unassigns the library from its development environment and moves the library to the submitted column for an Approver to work on.
+  Unassigns the library from its development environment and moves the library to the submitted column for an Approver to edit or update.
 
 ### Submitted
 
-An Approver tests the library in a staging environment. After testing is completed, the library is approved or rejected. Rejected builds return to Development so changes can be made, and the approval flow starts over again.
+An Approver tests the library in a staging environment. After testing is completed, the library is approved or rejected. Rejected builds return to Development so changes can be made, and the approval flow starts again.
 
 Available actions for a library in Submitted state are:
 
 * **Open**
 
-  View the contents of the library, but changes are not allowed. If changes are needed, the library should be rejected so changes can be made in Development.
+  You can view the contents of the library, but changes are not allowed. If changes are needed, reject the library. This way, the library returns to Development, which allows you to make the necessary changes. 
 
 * **Build for Staging**
 
-  Assigns the library to the staging environment and deploys it.
+  Assigns the library to the staging environment and deploys the library.
 
 * **Approve for Publishing**
 
-  Moves the library to the **Approved** column for a Publisher to publish
+  Moves the library to the **Approved** column, so that the Publisher can publish it. 
 
 * **Reject**
 
