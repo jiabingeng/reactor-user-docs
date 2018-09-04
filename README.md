@@ -1,6 +1,6 @@
 # Overview
 
-Launch is the next generation of website tag and mobile SDK management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For mobile, Launch provides capabilities to dynamically configure, publish and delpoy changes to their SDK.
+Launch is the generation of website tag and mobile SDK management capabilities from Adobe. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences. For mobile, Launch provides capabilities to dynamically configure, publish and delpoy changes to their SDK.
 
 Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to both web and mobile Launch customers in an app-store like experience so they can quickly install, configure, and deploy their integrations.
 
@@ -20,7 +20,7 @@ Here are some of the key features in Launch:
 
 An extension is a package of code \(JavaScript, HTML, and CSS\) that extends the Launch UI and client functionality. You can build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
 
-Mobile extensions are comprised of the Launch UI configuration options and native SDK components that work with the core Adobe Mobile SDK to deliver functionality to mobile apps.
+Mobile extensions are comprised of the Launch UI configuration options and native SDK components that work with the core Adobe Cloud Platform SDKs to deliver functionality to mobile apps.
 
 ### Extension Catalog
 
@@ -83,7 +83,7 @@ Launch requires the following:
 
 * You must be an Adobe Experience Cloud customer.
 * For web, you must deploy the Launch or DTM embed code on your web pages.
-* For mobile, you must integrate Version 5 of the Adobe Experience Cloud Mobile SDK into your application.
+* For mobile, you must integrate the Adobe Experience Cloud Mobile SDKs into your application.
 
 ## Adobe Launch FAQ
 

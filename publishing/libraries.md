@@ -1,8 +1,6 @@
 # Libraries
 
-A library is a set of instructions for how extensions, data elements, and rules will interact with each other after they are deployed.
-
-When you create a library, specify the changes that you want to make to your library. At build time, these changes are combined with everything that has been submitted and is approved or published in previous libraries.
+A library is a set of instructions for how extensions, data elements, and rules will interact with each other after they are deployed. When you create a library, specify the changes that you want to make to your library. At build time, these changes are combined with everything that has been submitted and was approved or published in previous libraries.
 
 Remember the following information about libraries:
 
@@ -11,7 +9,7 @@ Remember the following information about libraries:
   * Elements 
   * Extension configruation
 * Libraries must be assigned to an environment before they can be compiled in a build.
-* Libraries are approved or rejected as a whole. You cannot approve or reject individual items within a library.
+* Libraries are approved or rejected as a whole.  You cannot approve or reject individual items in a library.
 * A library moves between several environments as it makes its way through the publishing workflow.
 
 ## Create a library
@@ -106,7 +104,7 @@ To remove something from a library, you must deactivate it and then publish the 
 
 Libraries encapsulate a set of changes you'd like to make to your deployed code. Active Library makes this easier, allowing you to rapidly iterate through changes and see the impact.
 
-You can save new and existing extensions, rules, and data elements directly to the library you're working on and, if desired, immediately kick off a build. You can also create a new library from the Active Library drop down.
+You can save new and existing extensions, rules, and data elements directly to the library on which you are working and immediately kick off a build. You can also create a new library from the **Active Library** drop down.
 
 1. [Create a new library](libraries.md#create-a-library).
 2. Go to [Rules](../managing-resources/rules.md), [Data Elements](../managing-resources/data-elements.md), or [Extensions](../managing-resources/extensions.md).

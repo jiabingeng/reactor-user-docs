@@ -13,7 +13,7 @@ This section discusses factors that are important to understand when using Launc
 
 #### Organization Administrator
 
-Organization Administrators are often referred to as Org Admins. An Org Admin's main function is to assign permissions to other users. They do this by creating Product Profiles \(or groups\) that contain a specific set of rights within a specific product and then assigning users, existing or new, to that Product Profile.
+Organization Administrators are often referred to as Org Admins. An Org Admin's main function is to assign permissions to other users by creating Product Profiles \(or groups\) that contain a specific set of rights in a specific product and then assigning existing or new users to that Product Profile.
 
 Enterprise Org Admins do not inherit any rights in Launch. They must add themselves to a Product Profile that has Launch rights if they want to do anything in Launch.
 
