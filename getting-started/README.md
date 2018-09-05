@@ -28,7 +28,7 @@ After Launch rights have been added to your Adobe ID, you need to log in to Laun
 
 ## 3. Create a property
 
-In Launch, your first task is to create a property. 
+In Launch, your first task is to create a property.
 
 A property is a container that you fill with extensions, rules, data elements, and libraries to deploy tags to your site and configuration parameters to your mobile apps. Some users create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags. For mobile applications, a new property can contain multiple applications or one application depending on the need for different configurations.
 
@@ -68,7 +68,7 @@ Here is an overview of the process:
 
 1. Launch publishes a build to your host server.
 
-   As mentioned above, a build is the actual JavaScript file\(s\) that Launch produces. This relationship between Launch and your host location is defined by an adapter. For more information about adaptors, see [Adapters](./#adapters) below. 
+   As mentioned above, a build is the actual JavaScript file\(s\) that Launch produces. This relationship between Launch and your host location is defined by an adapter. For more information about adaptors, see [Adapters](./#adapters) below.
 
 2. Launch provides an embed code `<script>` tag that goes on your site.
 
@@ -84,14 +84,14 @@ If you want to self-host, you can have Launch push directly to your servers thro
 
 ### Environments
 
-Each library is created in an environment, and an environment defines how you want your build to look after it is published.   
-  
+Each library is created in an environment, and an environment defines how you want your build to look after it is published.
+
 You can specify the following types of environments:
 
 * **Adapter** Each environment needs an adapter that determines where Launch will push the builds that were created in this environment.
 * **Archive** The default is to deploy your build as a minified .js file, or if you are using custom code, multiple files that reference each other. You can have wrap all these files together in a zip file and encrypt it.
 
-After you save your environment, it generates the embed code that you can copy and paste into your website. 
+After you save your environment, it generates the embed code that you can copy and paste into your website.
 
 **Important**: The embed code will not work until you have created a library and produced a build. For more information, see [Environments](../administration/environments.md).
 
@@ -109,7 +109,7 @@ To publish, you need to complete the following tasks:
 
 ## 7. Promote to production
 
-After you test your build in your dev environment, the promotion process is simple. Before you try it out, ensure that you create your stage and production environments and put the embed codes in the necessary places. 
+After you test your build in your dev environment, the promotion process is simple. Before you try it out, ensure that you create your stage and production environments and put the embed codes in the necessary places.
 
 **Tip**: You can reuse existing adapters.
 

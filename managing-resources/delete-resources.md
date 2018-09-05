@@ -1,7 +1,3 @@
----
-description: 'You can delete data elements, rules, and extensions.'
----
-
 # Delete Resources
 
 To delete a resoucrce, select the resource and click **Delete**.
