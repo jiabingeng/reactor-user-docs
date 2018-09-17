@@ -62,8 +62,8 @@ You can create a rule by specifying the actions that will occur when a condition
 
 5. Set the **Order parameter** and click **Keep Changes**.
 
-   The default order for all rule components is 50. If you want one to run sooner, give it a number less than 50.  
-  
+   The default order for all rule components is 50. If you want one to run sooner, give it a number less than 50.
+
    Here is some additional information about rules:
 
    * The order of execution is the numerical order. For example, 1 comes before 3, and 3 comes before 10. 10 comes before 100, and so on.

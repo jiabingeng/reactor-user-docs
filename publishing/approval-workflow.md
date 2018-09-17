@@ -37,9 +37,9 @@ Available actions for a library in Development state are:
 
 * **Build for Development**
 
-  Create a build for the library. The build is compiled and deployed to the environment to which the library is assigned.   
-  
-  **Important**: If the library has not been assigned to an environment, this step will fail.   
+  Create a build for the library. The build is compiled and deployed to the environment to which the library is assigned.
+
+  **Important**: If the library has not been assigned to an environment, this step will fail.
 
 * **Submit for Approval**
 
@@ -53,7 +53,7 @@ Available actions for a library in Submitted state are:
 
 * **Open**
 
-  You can view the contents of the library, but changes are not allowed. If changes are needed, reject the library. This way, the library returns to Development, which allows you to make the necessary changes. 
+  You can view the contents of the library, but changes are not allowed. If changes are needed, reject the library. This way, the library returns to Development, which allows you to make the necessary changes.
 
 * **Build for Staging**
 
@@ -61,7 +61,7 @@ Available actions for a library in Submitted state are:
 
 * **Approve for Publishing**
 
-  Moves the library to the **Approved** column, so that the Publisher can publish it. 
+  Moves the library to the **Approved** column, so that the Publisher can publish it.
 
 * **Reject**
 

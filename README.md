@@ -148,7 +148,7 @@ Yes. Launch includes an extension that specializes in listening for changes in d
 
 #### Which event types does Launch support?
 
-Event types are available through extensions. The Launch Core extension includes 30 built-in event types. Other extensions add additional event types. For example, the YouTube extension includes the following video event types: 
+Event types are available through extensions. The Launch Core extension includes 30 built-in event types. Other extensions add additional event types. For example, the YouTube extension includes the following video event types:
 
 * Play
 * Pause

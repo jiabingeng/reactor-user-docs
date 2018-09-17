@@ -14,7 +14,7 @@ For example, you use a particular page-name schema by referencing a data layer, 
 
 **Tip**: If a data element is not referenced in a rule, unless specifically called in custom script, the element is not loaded on any page.
 
-Data elements are populated with data when they are used in rules, or when they are manually called in a script. 
+Data elements are populated with data when they are used in rules, or when they are manually called in a script.
 
 At a high level, you can complete the following tasks:
 
@@ -123,7 +123,7 @@ Any available domain cookie can be referenced in the cookie name field.
 
 In the **URL Parameter** field, specify one URL parameter.
 
-Only the name section is necessary, and special designators such as  `?` or `=` should be omitted
+Only the name section is necessary, and special designators such as `?` or `=` should be omitted
 
 #### Example:
 
